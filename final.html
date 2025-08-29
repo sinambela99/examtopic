@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ExamTopics PlayGround</title>
+  <style>
+    :root{
+      --bg:#f6f7fb; --surface:#ffffff; --text:#1f2937; --muted:#5f6b7a; --border:#e5e7eb;
+      --primary:#2563eb; --primary-ink:#ffffff;
+      --correct:#16a34a; --wrong:#dc2626;
+      --chip:#eef2ff; --chip-text:#1e3a8a;
+      --indent:18px;
+      --vote-bg:#eaf0ff; --vote-fill:#2563eb; --vote-ink:#0b1d4d;
+      --topicbar-bg:#119da4; --topicbar-ink:#ffffff;
+    }
+    [data-theme="dark"]{
+      --bg:#0f1115; --surface:#171923; --text:#e5e7eb; --muted:#9aa0ae; --border:#262a36;
+      --primary:#6ea0ff; --primary-ink:#081020;
+      --chip:#1e293b; --chip-text:#bfdbfe;
+      --correct:#22c55e; --wrong:#ef4444;
+      --vote-bg:#101c3a; --vote-fill:#6ea0ff; --vote-ink:#cbd5e1;
+      --topicbar-bg:#178b91; --topicbar-ink:#eaf7f7;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans";}
+    header{ position:sticky; top:0; z-index:10; border-bottom:1px solid var(--border);
+      backdrop-filter:saturate(180%) blur(6px);
+      background: color-mix(in oklab, var(--bg) 86%, transparent); }
+    .bar{ max-width:1100px; margin:0 auto; padding:8px 12px; display:flex; align-items:center; gap:10px; }
+    .brand{ font-weight:800; }
+    .spacer{ flex:1; }
+    .hamb{ border:1px solid var(--border); background:var(--surface); color:var(--text);
+           border-radius:10px; padding:8px 10px; display:none; }
+    .menu{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+    .row{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+    input[type="text"], input[type="number"], select{
+      padding:8px 10px; background:var(--surface); color:var(--text);
+      border:1px solid var(--border); border-radius:10px; min-width:120px;
+    }
+    .btn{ padding:8px 12px; border-radius:10px; border:1px solid var(--border);
+          background:var(--surface); color:var(--text); cursor:pointer; }
+    .btn.primary{ background:var(--primary); color:var(--primary-ink);
+                  border-color: color-mix(in oklab, var(--primary), black 10%); }
+    .btn:disabled{opacity:.6; cursor:not-allowed}
+    @media (max-width:760px){
+      .hamb{display:inline-block; margin-left:auto;} /* push to the far right */
+      .menu{ display:none; width:100%; padding:8px 0; }
+      .menu.open{ display:flex; flex-direction:column; align-items:stretch; }
+      .bar{ flex-wrap:wrap; }
+      .spacer{ display:none; }
+    }
+    .container{ max-width:1100px; margin: 18px auto 72px; padding:0 12px; }
+    .meta-top{ color:var(--muted); font-size:.95rem; margin:8px 0 12px; display:flex; gap:10px; flex-wrap:wrap; }
+    .card{ background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:14px; margin:14px 0; box-shadow:0 1px 0 rgba(0,0,0,.03); }
+    .qhead{ display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; }
+    .qtitle{ font-weight:800; }
+    .qid{ color:var(--muted); font-size:.85rem; }
+    .topic{ margin-left:auto; color:var(--muted); }
+    .qtext{ margin:10px 0 8px; line-height:1.6; }
+    .qimgs,.cimgs{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; }
+    .qimgs img,.cimgs img{ max-width:100%; height:auto; border:1px solid var(--border); border-radius:10px; }
+    .opts{ display:grid; gap:8px; margin:12px 0 6px; }
+    .opt{ border:1px solid var(--border); border-radius:12px; padding:10px 12px; cursor:pointer; display:flex; gap:10px; align-items:flex-start; background: color-mix(in oklab, var(--surface) 94%, transparent); }
+    .opt .letter{ font-weight:800; min-width:1.5rem; }
+    .opt.selected{ outline:2px solid color-mix(in oklab, var(--primary), white 40%); }
+    .revealed .opt.correct{ background: color-mix(in oklab, var(--correct) 20%, var(--surface)); border-color: color-mix(in oklab, var(--correct), var(--border) 60%); }
+    .revealed .opt.wrong{ background: color-mix(in oklab, var(--wrong) 16%, var(--surface)); border-color: color-mix(in oklab, var(--wrong), var(--border) 60%); }
+    details.reveal{ margin:12px 0 6px; border:1px dashed var(--border); border-radius:12px; padding:8px 10px; }
+    details.reveal > summary{ cursor:pointer; list-style:none; font-weight:700; user-select:none; padding:6px 4px; }
+    details.reveal > summary::marker{ display:none; }
+    .votes{ margin:10px 0 14px; background:var(--vote-bg); border:1px solid var(--border); border-radius:12px; padding:12px; }
+    .votes .title{ font-weight:800; margin-bottom:8px; color: var(--vote-ink); }
+    .vrow{ display:flex; align-items:center; gap:12px; margin:10px 0; }
+    .vrow .lab{ width:1.4rem; font-weight:800; color: var(--vote-ink); }
+    .vbar{ flex:1; height:14px; background: color-mix(in oklab, var(--vote-bg) 70%, var(--border)); border-radius:999px; position:relative; overflow:hidden; }
+    .vbar > span{ position:absolute; inset:0 0 0 0; width:0; background: var(--vote-fill); }
+    .vrow .cnt{ width:84px; text-align:right; color:var(--vote-ink); font-variant-numeric: tabular-nums; }
+    .discussion{ margin: 12px 0; }
+    .comment{ border-left: 3px solid var(--border); margin:10px 0; padding:10px 12px; background: color-mix(in oklab, var(--surface) 96%, transparent); border-radius: 10px; }
+    .comment .head{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+    .author{ font-weight:800; }
+    .badges{ display:flex; gap:6px; flex-wrap:wrap; }
+    .pill{ display:inline-flex; gap:6px; align-items:center; padding:4px 8px; border-radius:999px; background:var(--chip); color:var(--chip-text); border:1px solid var(--border); font-size:.78rem; }
+    .txt{ margin:6px 0; line-height:1.55; }
+    .txt a{ color: var(--primary); }
+    .replies{ margin-top:4px; }
+    .pager{ display:flex; gap:8px; flex-wrap:wrap; justify-content:center; align-items:center; margin: 20px 0 60px;}
+    .pagebtn{ min-width:36px; text-align:center; padding:8px 10px; border:1px solid var(--border); border-radius:10px; background:var(--surface); color:var(--text); cursor:pointer; }
+    .pagebtn.active{ background: var(--primary); color: var(--primary-ink); border-color: color-mix(in oklab, var(--primary), black 10%); }
+    .ellipsis{ color:var(--muted); padding: 0 4px; }
+    .topic-divider{ margin:18px 0 8px; padding:10px 12px; border-radius:10px; background: var(--topicbar-bg); color: var(--topicbar-ink); font-weight:800; display:flex; align-items:center; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div class="brand">ExamTopics PlayGround</div>
+      <div class="spacer"></div>
+      <button class="hamb" id="hamb" type="button">☰ Menu</button>
+      <div class="menu" id="menu">
+        <div class="row">
+          <label for="exam">Exam</label>
+          <!-- switched to a real dropdown -->
+          <select id="exam"></select>
+          <button id="load" class="btn" type="button">Load</button>
+        </div>
+        <div class="row">
+          <label for="jump">Page</label>
+          <input id="jump" type="number" min="1" step="1" placeholder="1"/>
+          <button id="go" class="btn" type="button">Go</button>
+          <label for="pagesize">Per page</label>
+          <select id="pagesize">
+            <option>10</option><option>20</option><option>30</option><option>40</option><option>50</option>
+          </select>
+          <button id="theme" class="btn" type="button">Dark mode</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="meta" class="meta-top"></div>
+    <div id="app">Choose an exam and press Load.</div>
+    <div id="pager" class="pager"></div>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    let PAGE_SIZE = 10;
+    let DATA = [];
+    let currentPage = 1;
+    let currentExam = '';
+    const selections = new Map();
+
+    const $ = s => document.querySelector(s);
+    const el = (t,c,txt)=>{ const n=document.createElement(t); if(c) n.className=c; if(txt!=null) n.textContent=txt; return n; };
+    const pct = (n,t)=> t? Math.round(n*100/t):0;
+
+    function setTheme(mode){
+      document.documentElement.setAttribute('data-theme', mode);
+      const btn = $('#theme'); if (btn) btn.textContent = mode==='dark' ? 'Light mode' : 'Dark mode';
+      try{ localStorage.setItem('viewer-theme', mode); }catch{}
+    }
+    (function initTheme(){
+      const stored = (()=>{try{return localStorage.getItem('viewer-theme')}catch{return null}})();
+      if (stored) setTheme(stored);
+      else setTheme(matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light');
+    })();
+
+    $('#hamb')?.addEventListener('click', ()=> $('#menu')?.classList.toggle('open'));
+
+    const ALLOW_TAGS = new Set(['BR','B','STRONG','I','EM','U','CODE','PRE','P','UL','OL','LI','A','SPAN','DIV']);
+    function sanitizeHTML(html){
+      const tpl = document.createElement('template');
+      tpl.innerHTML = html || '';
+      const walk = (node) => {
+        [...node.childNodes].forEach(ch=>{
+          if (ch.nodeType === Node.ELEMENT_NODE){
+            const tag = ch.tagName;
+            if (!ALLOW_TAGS.has(tag)){
+              const frag = document.createDocumentFragment();
+              while (ch.firstChild) frag.appendChild(ch.firstChild);
+              ch.replaceWith(frag);
+            } else {
+              [...ch.attributes].forEach(a=>{
+                const name = a.name.toLowerCase();
+                if (tag==='A' && name==='href'){
+                  const href = ch.getAttribute('href') || '';
+                  if (!/^https?:/i.test(href) && !href.startsWith('/')) ch.removeAttribute('href');
+                  else { ch.setAttribute('target','_blank'); ch.setAttribute('rel','noopener'); }
+                } else ch.removeAttribute(name);
+              });
+              walk(ch);
+            }
+          }
+        });
+      };
+      walk(tpl.content);
+      let out = tpl.innerHTML;
+      out = out.replace(/([A-Za-z])<br\s*\/?>([A-Za-z])/g, '$1 $2');
+      return out;
+    }
+
+    function imageRow(urls, cls='qimgs'){
+      if (!urls || !urls.length) return null;
+      const w = el('div',cls);
+      urls.forEach(u=>{ const img=new Image(); img.loading='lazy'; img.decoding='async'; img.src=u; w.appendChild(img); });
+      return w;
+    }
+
+    function votesCard(votes, letters = ['A','B','C','D']){
+      const total = (letters || []).reduce((s, L) => s + (votes?.[L] || 0), 0);
+      const wrap = el('div','votes');
+      wrap.appendChild(el('div','title','Answer votes'));
+      (letters || []).forEach(L=>{
+        const row = el('div','vrow');
+        row.appendChild(el('div','lab', L));
+        const bar = el('div','vbar');
+        const fill = el('span');
+        const count = votes?.[L] || 0;
+        const perc = total ? Math.round(count*100/total) : 0;
+        fill.style.width = perc + '%';
+        bar.appendChild(fill);
+        row.appendChild(bar);
+        row.appendChild(el('div','cnt', `${count} • ${perc}%`));
+        wrap.appendChild(row);
+      });
+      return wrap;
+    }
+
+    const pill = txt => el('span','pill',txt);
+
+    function comment(node, level=1){
+      const c = el('div','comment'); c.style.marginLeft = `calc(${level-1} * var(--indent))`;
+      const head = el('div','head');
+      head.appendChild(el('span','author', node.author || '—'));
+      const badges = el('span','badges');
+      if (node.is_highly_voted) badges.appendChild(pill('Highly Voted'));
+      if (node.is_most_recent) badges.appendChild(pill('Most Recent'));
+      if (node.selected_answer) badges.appendChild(pill(`Selected: ${node.selected_answer}`));
+      if (node.relative_time) badges.appendChild(pill(node.relative_time));
+      badges.appendChild(pill(`▲ ${node.upvotes ?? 0}`));
+      head.appendChild(badges); c.appendChild(head);
+
+      const txt = el('div','txt'); txt.innerHTML = sanitizeHTML(node.html || node.text || '');
+      c.appendChild(txt);
+
+      if (node.replies && node.replies.length){
+        const rep = el('div','replies');
+        node.replies.forEach(r => rep.appendChild(comment(r, Math.min(level+1, 6))));
+        c.appendChild(rep);
+      }
+      return c;
+    }
+
+    function topicDivider(topicNum){
+      const d = el('div','topic-divider', `Topic ${topicNum} - Question Set 1`);
+      return d;
+    }
+
+    function renderCard(q){
+      const card = el('div','card');
+      const head = el('div','qhead');
+      const idx = DATA.indexOf(q);
+      head.appendChild(el('div','qtitle', `Question #${q.question_number || (idx>=0? idx+1 : '—')}`));
+      head.appendChild(el('div','qid', `ID: ${q.question_id || '—'}`));
+      head.appendChild(el('div','topic', `Topic ${q.topic_number || '—'}`));
+      card.appendChild(head);
+
+      if (q.question_html){
+        const qt = el('div','qtext'); qt.innerHTML = sanitizeHTML(q.question_html); card.appendChild(qt);
+      } else if (q.question_text){ card.appendChild(el('div','qtext', q.question_text)); }
+      const qi = imageRow(q.question_images,'qimgs'); if (qi) card.appendChild(qi);
+
+      const lettersAll = ['A','B','C','D'];
+      const showLetters = lettersAll.filter(L => (q.options?.[L]||'').trim() !== '');
+      const hasOptions = showLetters.length > 0;
+
+      let optsWrap = null;
+      if (hasOptions){
+        optsWrap = el('div','opts');
+        const chosen = selections.get(q.question_id) || null;
+        showLetters.forEach(letter=>{
+          const opt = el('div','opt'); opt.dataset.letter = letter;
+          if (chosen === letter) opt.classList.add('selected');
+          opt.appendChild(el('div','letter', letter));
+          opt.appendChild(el('div','text', q.options?.[letter] || ''));
+          opt.addEventListener('click', ()=>{
+            selections.set(q.question_id, letter);
+            optsWrap.querySelectorAll('.opt').forEach(o=>o.classList.remove('selected'));
+            opt.classList.add('selected');
+            if (reveal.open) applyRevealStyles();
+          });
+          optsWrap.appendChild(opt);
+        });
+        card.appendChild(optsWrap);
+      }
+
+      const reveal = document.createElement('details'); reveal.className='reveal';
+      const sum = el('summary', null, 'Reveal answer & discussion'); reveal.appendChild(sum);
+
+      const meta = el('div','meta-top');
+      const totalVotes = showLetters.reduce((s,L)=> s + (q.votes?.[L]||0), 0);
+      meta.appendChild(el('span', null, q.correct_answer ? `Correct: ${q.correct_answer}` : 'Correct answer shown below'));
+      if (hasOptions) meta.appendChild(pill(`Total votes: ${totalVotes}`));
+      reveal.appendChild(meta);
+
+      const cai = imageRow(q.correct_answer_images,'cimgs'); if (cai) reveal.appendChild(cai);
+      if (hasOptions) {
+        reveal.appendChild(votesCard(q.votes || {}, showLetters));
+      }
+
+      const discuss = el('div','discussion');
+      if (q.discussion && q.discussion.length){ q.discussion.forEach(d => discuss.appendChild(comment(d, 1))); }
+      else { discuss.appendChild(el('div','txt','(No discussion)')); }
+      reveal.appendChild(discuss);
+
+      function applyRevealStyles(){
+        if (!hasOptions) return;
+        optsWrap.classList.add('revealed');
+        const chosen = selections.get(q.question_id);
+        optsWrap.querySelectorAll('.opt').forEach(o=>{
+          o.classList.remove('correct','wrong');
+          const L = o.dataset.letter;
+          if (q.correct_answer && L === q.correct_answer) o.classList.add('correct');
+          if (chosen && q.correct_answer && chosen !== q.correct_answer && L === chosen) o.classList.add('wrong');
+        });
+      }
+      reveal.addEventListener('toggle', ()=>{ if (reveal.open) applyRevealStyles(); else if (hasOptions) optsWrap.classList.remove('revealed'); });
+
+      card.appendChild(reveal);
+      return card;
+    }
+
+    function renderMeta(){
+      const meta = $('#meta'); meta.innerHTML = '';
+      if (!DATA.length) return;
+      const first = DATA[0];
+      const exam = first.exam_code || currentExam || '';
+      const raw = first.dump_updated_text || '';
+      const m = raw.match(/(\d{4}[-\/\. ]\d{1,2}[-\/\. ]\d{1,2})|(\d{1,2}[-\/\.]\d{1,2}[-\/\.]\d{2,4})/);
+      let when = '';
+      if (m){
+        const d = new Date(m[0]); if (!isNaN(d)) when = d.toLocaleDateString(undefined,{day:'2-digit',month:'2-digit',year:'numeric'});
+      }
+      const text = `Exam: ${exam} ` + (when ? `with Last Updated on ${when}` : (raw ? `with ${raw}` : ''));
+      meta.appendChild(el('span', null, text));
+    }
+
+    function paginate(total, page, onClick){
+      const pager = $('#pager'); pager.innerHTML = '';
+      const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+      const btn = (label, p, active=false, disabled=false)=>{
+        const b = el('button','pagebtn' + (active?' active':''), label);
+        if (disabled) b.disabled = true;
+        b.addEventListener('click', ()=>onClick(p));
+        pager.appendChild(b);
+      };
+      btn('« Prev', Math.max(1,page-1), false, page===1);
+      const start = Math.max(1,page-2), end = Math.min(pages,page+2);
+      if (start>1){ btn('1',1,page===1); if (start>2) pager.appendChild(el('span','ellipsis','…')); }
+      for (let p=start;p<=end;p++) btn(String(p),p,page===p);
+      if (end<pages){ if (end<pages-1) pager.appendChild(el('span','ellipsis','…')); btn(String(pages),pages,page===pages); }
+      btn('Next »', Math.min(pages,page+1), false, page===pages);
+    }
+
+    function renderPage(page=1){
+      const app = $('#app'); app.innerHTML = '';
+      const start = (page-1)*PAGE_SIZE;
+      const slice = DATA.slice(start, start+PAGE_SIZE);
+      let lastTopic = null;
+      slice.forEach(q => {
+        const topicNow = (q.topic_number || '').toString();
+        if (topicNow && topicNow !== lastTopic){
+          app.appendChild(topicDivider(topicNow));
+          lastTopic = topicNow;
+        }
+        app.appendChild(renderCard(q));
+      });
+      paginate(DATA.length, page, (p)=>{ currentPage = p; renderPage(currentPage); });
+      const jump = $('#jump'); if (jump) jump.value = page;
+      renderMeta();
+    }
+
+    async function loadExam(code){
+      currentExam = (code||'').trim();
+      if (!currentExam){
+        $('#app').innerHTML = '<div class="card">Choose an exam and click Load.</div>';
+        $('#pager').innerHTML=''; $('#meta').innerHTML=''; return;
+      }
+      const slug = currentExam.toLowerCase();
+      const url = `examtopics_${slug}_with_discussions.json`;
+      try{
+        const r = await fetch(url);
+        if (!r.ok) throw new Error('HTTP '+r.status);
+        DATA = await r.json();
+        currentPage = 1;
+        renderPage(currentPage);
+        try{ localStorage.setItem('last-exam', currentExam); }catch{}
+      }catch(e){
+        console.error(e);
+        $('#app').innerHTML = `<div class="card">Could not load <code>${url}</code>.<br/>Please serve this folder via a local server (e.g. <code>python3 -m http.server</code>).</div>`;
+        $('#pager').innerHTML=''; $('#meta').innerHTML='';
+      }
+    }
+
+    // Buttons
+    $('#load')?.addEventListener('click', ()=>loadExam($('#exam')?.value));
+    $('#go')?.addEventListener('click', ()=>{
+      const pages = Math.ceil(DATA.length/PAGE_SIZE)||1;
+      const v = parseInt($('#jump')?.value||'1',10);
+      const p = Math.max(1, Math.min(v, pages));
+      currentPage = p; renderPage(currentPage);
+    });
+    $('#jump')?.addEventListener('keydown', e=>{ if (e.key==='Enter') $('#go').click(); });
+    $('#theme')?.addEventListener('click', ()=>{
+      const cur = document.documentElement.getAttribute('data-theme') || 'light';
+      setTheme(cur==='light' ? 'dark' : 'light');
+    });
+
+    // Page size selector
+    (function initPageSize(){
+      const sel = $('#pagesize');
+      const stored = (()=>{try{return localStorage.getItem('page-size')}catch{return null}})();
+      const def = stored && [10,20,30,40,50].includes(parseInt(stored,10)) ? parseInt(stored,10) : 10;
+      PAGE_SIZE = def;
+      if (sel) sel.value = String(def);
+      sel?.addEventListener('change', ()=>{
+        const v = parseInt(sel.value,10);
+        PAGE_SIZE = [10,20,30,40,50].includes(v) ? v : 10;
+        try{ localStorage.setItem('page-size', String(PAGE_SIZE)); }catch{}
+        currentPage = 1; renderPage(currentPage);
+      });
+    })();
+
+    // === Populate the real dropdown from exams.json ===
+    (async function loadExamList(){
+      const sel = $('#exam');
+      sel.innerHTML = '<option disabled selected value="">Loading…</option>';
+      try{
+        const r = await fetch('exams.json');
+        if (!r.ok) throw new Error('no exams.json');
+        const list = await r.json(); // e.g. ["AZ-104","AZ-140","AZ-900","DP-203","AZ-110"]
+        const opts = (Array.isArray(list)?list:[]).map(x => String(x).toUpperCase());
+        sel.innerHTML = '';
+        // optional placeholder
+        const ph = document.createElement('option');
+        ph.value = ''; ph.disabled = true; ph.selected = true; ph.textContent = '— Select exam —';
+        sel.appendChild(ph);
+        opts.forEach(code=>{
+          const o = document.createElement('option');
+          o.value = code; o.textContent = code;
+          sel.appendChild(o);
+        });
+        // restore last exam selection if present
+        const last = (()=>{try{return localStorage.getItem('last-exam')}catch{return null}})();
+        if (last){
+          const up = String(last).toUpperCase();
+          if (![...sel.options].some(o=>o.value===up)){
+            const extra = document.createElement('option');
+            extra.value = up; extra.textContent = up;
+            sel.appendChild(extra);
+          }
+          sel.value = up;
+        }
+      }catch(e){
+        // fallback: let user pick nothing; they can’t type into <select>, so show a single disabled item
+        sel.innerHTML = '<option disabled selected>(exams.json not found)</option>';
+        console.warn('exams.json not loaded:', e);
+      }
+    })();
+
+    // If we already know last exam and dropdown sets it, consider auto-load
+    // (uncomment if you want auto-load after list populates)
+    // document.getElementById('exam')?.addEventListener('change', ()=>{/* optional */});
+  });
+  </script>
+</body>
+</html>
