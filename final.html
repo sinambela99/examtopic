@@ -579,16 +579,16 @@
         background: #fff; 
       }
 
-      /* Topic dividers - start new page for each topic */
+      /* Topic dividers - remove page breaks */
       .topic-divider {
         background: var(--topicbar-bg) !important;
         color: var(--topicbar-ink) !important;
         border-radius: 8px;
-        padding: 8px 12px;
-        margin: 12px 0 8px;
+        padding: 16px 12px;
+        margin: 8px 0 0;
         font-weight: 800;
-        break-before: page;
-        page-break-before: always;
+        page-break-after: avoid;
+        break-after: avoid;
       }
 
       /* Question headers */
@@ -596,7 +596,7 @@
         background: var(--primary) !important;
         color: #fff !important;
         border-radius: 8px;
-        padding: 8px 10px;
+        padding: 12px 12px;
         align-items: center;
       }
       
