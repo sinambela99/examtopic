@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en" data-theme="light">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -23,36 +23,67 @@
       --topicbar-bg:#178b91; --topicbar-ink:#eaf7f7;
     }
     html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans";}
-    header{ position:sticky; top:0; z-index:10; border-bottom:1px solid var(--border);
+    header{ padding: 10px 10px ; position:sticky; top:10px; z-index:10; border-bottom:1px solid var(--border);
       backdrop-filter:saturate(180%) blur(6px);
-      background: color-mix(in oklab, var(--bg) 86%, transparent); }
+      background: color-mix(in oklab, var(--bg) 10%, transparent); }
     .bar{ max-width:1100px; margin:0 auto; padding:8px 12px; display:flex; align-items:center; gap:10px; }
     .brand{ font-weight:800; }
     .spacer{ flex:1; }
     .hamb{ border:1px solid var(--border); background:var(--surface); color:var(--text);
            border-radius:10px; padding:8px 10px; display:none; }
-    .menu{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-    .row{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+    .menu{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    .row{ display:flex; gap:8px; align-items:center; flex-wrap:nowrap; }
     input[type="text"], input[type="number"], select{
       padding:8px 10px; background:var(--surface); color:var(--text);
-      border:1px solid var(--border); border-radius:10px; min-width:120px;
+      border:1px solid var(--border); border-radius:10px; min-width:20px;
     }
+    
+    /* Specific width controls for form elements */
+    #exam { 
+      width: 90px; /* Narrow the exam dropdown */
+    }
+    #jump { 
+      width: 30px; /* Narrow the page input field */
+    }
+    #pagesize { 
+      width: 70px; /* Slightly wider for per page dropdown */
+    }
+    
     .btn{ padding:8px 12px; border-radius:10px; border:1px solid var(--border);
-          background:var(--surface); color:var(--text); cursor:pointer; }
+          background:var(--surface); color:var(--text); cursor:pointer; 
+          transition: all 0.2s ease; }
+    .btn:hover{ background: color-mix(in oklab, var(--surface), var(--primary) 12%);
+                border-color: color-mix(in oklab, var(--border), var(--primary) 30%); }
     .btn.primary{ background:var(--primary); color:var(--primary-ink);
                   border-color: color-mix(in oklab, var(--primary), black 10%); }
+    .btn.primary:hover{ background: color-mix(in oklab, var(--primary), white 15%);
+                        border-color: color-mix(in oklab, var(--primary), white 5%); }
     .btn:disabled{opacity:.6; cursor:not-allowed}
+    .btn:disabled:hover{ background:var(--surface); border-color:var(--border); }
     @media (max-width:760px){
+      .row{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
       .hamb{display:inline-block; margin-left:auto;} /* push to the far right */
       .menu{ display:none; width:100%; padding:8px 0; }
       .menu.open{ display:flex; flex-direction:column; align-items:stretch; }
       .bar{ flex-wrap:wrap; }
       .spacer{ display:none; }
+      
+      /* Mobile adjustments */
+      #exam { width: 100px; }
+      #jump { width: 50px; }
+      #pagesize { width: 60px; }
     }
     .container{ max-width:1100px; margin: 18px auto 72px; padding:0 12px; }
     .meta-top{ color:var(--muted); font-size:.95rem; margin:8px 0 12px; display:flex; gap:10px; flex-wrap:wrap; }
     .card{ background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:14px; margin:14px 0; box-shadow:0 1px 0 rgba(0,0,0,.03); }
-    .qhead{ display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; }
+
+    .inputfield{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+
+    .qhead{ display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; 
+            background: var(--primary); color: #fff; 
+            border-radius: 8px; padding: 12px 12px; }
+    .qhead .qid,
+    .qhead .topic{ color: rgba(255,255,255,.9); }
     .qtitle{ font-weight:800; }
     .qid{ color:var(--muted); font-size:.85rem; }
     .topic{ margin-left:auto; color:var(--muted); }
@@ -88,7 +119,65 @@
     .pagebtn{ min-width:36px; text-align:center; padding:8px 10px; border:1px solid var(--border); border-radius:10px; background:var(--surface); color:var(--text); cursor:pointer; }
     .pagebtn.active{ background: var(--primary); color: var(--primary-ink); border-color: color-mix(in oklab, var(--primary), black 10%); }
     .ellipsis{ color:var(--muted); padding: 0 4px; }
-    .topic-divider{ margin:18px 0 8px; padding:10px 12px; border-radius:10px; background: var(--topicbar-bg); color: var(--topicbar-ink); font-weight:800; display:flex; align-items:center; }
+    .topic-divider{ margin:18px 0 8px; padding:16px 12px; border-radius:10px; background: var(--topicbar-bg); color: var(--topicbar-ink); font-weight:800; display:flex; align-items:center; }
+
+
+    @media print {
+      header, #pager { display: none !important; }    /* hide chrome */
+    *{ -webkit-print-color-adjust: exact; print-color-adjust: exact; } /* keep backgrounds in print */
+    body { background: #fff; }
+
+    /* Topic ribbon (green/teal bar) */
+    .topic-divider{
+      background: var(--topicbar-bg) !important;
+      color: var(--topicbar-ink) !important;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin: 12px 0 8px;
+      font-weight: 800;
+      break-before: page;             /* start each topic on a new page */
+      page-break-before: always;      /* legacy engines */
+    }
+
+    /* Question header ribbon (blue bar) */
+    .qhead{
+      background: var(--primary) !important;
+      color: #fff !important;
+      border-radius: 8px;
+      padding: 8px 10px;
+      align-items: center;
+    }
+    .qhead .qid,
+    .qhead .topic{
+      color: rgba(255,255,255,.9) !important; /* softer white for secondary bits */
+    }
+
+    /* Card & content tweaks for print */
+    .card{
+      break-inside: avoid;            /* avoid splitting a question across pages */
+      page-break-inside: avoid;       /* legacy */
+      border-color: #d7dde5;
+      box-shadow: none;
+    }
+    .qtext{ margin-top: 10px; }
+
+    /* Reveal area: keep content visible, hide the toggle */
+    details.reveal{ border: none; padding: 0; }
+    details.reveal > summary{ display: none !important; }
+
+    #pdf-overlay{
+      position: fixed; inset: 0;
+      display: none; align-items: center; justify-content: center;
+      background: rgba(0,0,0,.35); z-index: 1000;
+    }
+    #pdf-overlay .box{
+      background: var(--surface); color: var(--text);
+      border: 1px solid var(--border);
+      padding: 14px 16px; border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+      font-weight: 700;
+    }
+    @media print { #pdf-overlay{ display:none !important; } }
   </style>
 </head>
 <body>
@@ -100,19 +189,21 @@
       <div class="menu" id="menu">
         <div class="row">
           <label for="exam">Exam</label>
-          <!-- switched to a real dropdown -->
-          <select id="exam"></select>
+          <select id="exam">
+            <option>MD-102</option>
+            <option>AZ-900</option>
+            <option>SC-900</option>
+          </select>
           <button id="load" class="btn" type="button">Load</button>
-        </div>
-        <div class="row">
           <label for="jump">Page</label>
-          <input id="jump" type="number" min="1" step="1" placeholder="1"/>
+          <input id="jump" class="inputfield" type="number" min="1" step="1" placeholder="1"/>
           <button id="go" class="btn" type="button">Go</button>
           <label for="pagesize">Per page</label>
           <select id="pagesize">
             <option>10</option><option>20</option><option>30</option><option>40</option><option>50</option>
           </select>
           <button id="theme" class="btn" type="button">Dark mode</button>
+          <button id="pdf" class="btn" type="button">Generate PDF</button>
         </div>
       </div>
     </div>
@@ -138,7 +229,7 @@
 
     function setTheme(mode){
       document.documentElement.setAttribute('data-theme', mode);
-      const btn = $('#theme'); if (btn) btn.textContent = mode==='dark' ? 'Light mode' : 'Dark mode';
+      const btn = $('#theme'); if (btn) btn.textContent = mode==='dark' ? '☀️' : '🌙';
       try{ localStorage.setItem('viewer-theme', mode); }catch{}
     }
     (function initTheme(){
@@ -453,6 +544,75 @@
     // If we already know last exam and dropdown sets it, consider auto-load
     // (uncomment if you want auto-load after list populates)
     // document.getElementById('exam')?.addEventListener('change', ()=>{/* optional */});
+
+    const overlay = $('#pdf-overlay');
+    const statusEl = $('#pdf-status');
+    const showProgress = (msg) => { if (statusEl) statusEl.textContent = msg || 'Working…'; if (overlay) overlay.style.display = 'flex'; };
+    const hideProgress = () => { if (overlay) overlay.style.display = 'none'; };
+
+    // Wait until images within a root element have finished (or timeout)
+    function waitForImages(root){
+      const imgs = [...root.querySelectorAll('img')];
+      return new Promise(resolve => {
+        if (!imgs.length) return resolve();
+        let left = imgs.length;
+        const done = () => { if (--left <= 0) resolve(); };
+        imgs.forEach(img => {
+          if (img.complete) return done();
+          img.addEventListener('load', done, { once:true });
+          img.addEventListener('error', done, { once:true });
+        });
+        setTimeout(resolve, 4000); // safety timeout
+      });
+    }
+
+    async function printAllPages(){
+      const btn = $('#pdf');
+      // guard: need data loaded
+      if (!DATA.length) return;
+
+      // Disable button + show overlay
+      const oldLabel = btn ? btn.textContent : '';
+      if (btn){ btn.disabled = true; btn.textContent = 'Generating…'; }
+      showProgress('Rendering all questions…');
+
+      // Remember page to restore later
+      const prevPage = currentPage;
+
+      // Render ALL questions with topic dividers
+      const app = $('#app');
+      app.innerHTML = '';
+      let lastTopic = null;
+      DATA.forEach(q => {
+        const tNow = (q.topic_number || '').toString();
+        if (tNow && tNow !== lastTopic){
+          app.appendChild(topicDivider(tNow));
+          lastTopic = tNow;
+        }
+        app.appendChild(renderCard(q));
+      });
+
+      // Open all <details> so answers & discussions are included
+      app.querySelectorAll('details.reveal').forEach(d => d.open = true);
+
+      showProgress('Loading images…');
+      await waitForImages(app);
+
+      // Give the browser a beat to layout before printing
+      showProgress('Opening print dialog…');
+      await new Promise(r => setTimeout(r, 150));
+
+      // Trigger the print dialog (user picks "Save as PDF")
+      window.print();  // MDN: Window.print() opens print UI.
+
+      // Restore the original paginated view
+      hideProgress();
+      renderPage(prevPage);
+      if (btn){ btn.disabled = false; btn.textContent = oldLabel; }
+    }
+
+    // Hook up the button (inside DOMContentLoaded so DATA etc. are in scope)
+    $('#pdf')?.addEventListener('click', printAllPages);
   });
   </script>
 </body>
