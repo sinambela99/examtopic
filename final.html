@@ -311,9 +311,12 @@
     .qimgs img,
     .cimgs img { 
       max-width: 100%; 
+      min-width: 200px;
       height: auto; 
       border: 1px solid var(--border); 
-      border-radius: 10px; 
+      border-radius: 10px;
+      object-fit: contain;
+      width: auto;
     }
 
     /* ==========================================
@@ -363,7 +366,7 @@
       margin: 12px 0 6px; 
       border: 1px dashed var(--border); 
       border-radius: 12px; 
-      padding: 8px 10px; 
+      padding: 0; 
     }
 
     details.reveal > summary { 
@@ -371,7 +374,19 @@
       list-style: none; 
       font-weight: 700; 
       user-select: none; 
-      padding: 6px 4px; 
+      padding: 12px 14px; 
+      background: #f3f4f6;
+      border-radius: 11px;
+      color: var(--text);
+      margin: 0;
+    }
+
+    details.reveal[open] > summary {
+      border-radius: 11px 11px 0 0;
+    }
+
+    details.reveal > *:not(summary) {
+      padding: 0 14px 10px 14px;
     }
 
     details.reveal > summary::marker { 
@@ -834,7 +849,7 @@
       /* ==========================================
          VOTING STATISTICS COMPONENT
          ========================================== */
-      function votesCard(votes, letters = ['A','B','C','D']) {
+      function votesCard(votes, letters) {
         const total = (letters || []).reduce((sum, letter) => sum + (votes?.[letter] || 0), 0);
         const wrapper = el('div', 'votes');
         wrapper.appendChild(el('div', 'title', 'Answer votes'));
@@ -930,9 +945,9 @@
         const questionImages = imageRow(question.question_images, 'qimgs'); 
         if (questionImages) card.appendChild(questionImages);
 
-        // Answer options handling
-        const lettersAll = ['A','B','C','D'];
-        const showLetters = lettersAll.filter(letter => (question.options?.[letter] || '').trim() !== '');
+        // Answer options handling - Dynamic extraction of available options
+        const availableOptions = question.options || {};
+        const showLetters = Object.keys(availableOptions).filter(letter => (availableOptions[letter] || '').trim() !== '');
         const hasOptions = showLetters.length > 0;
 
         let optionsWrapper = null;
