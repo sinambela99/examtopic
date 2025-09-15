@@ -584,7 +584,7 @@
         background: var(--topicbar-bg) !important;
         color: var(--topicbar-ink) !important;
         border-radius: 8px;
-        padding: 16px 12px;
+        padding: 8px 12px;
         margin: 8px 0 0;
         font-weight: 800;
         page-break-after: avoid;
@@ -596,7 +596,7 @@
         background: var(--primary) !important;
         color: #fff !important;
         border-radius: 8px;
-        padding: 12px 12px;
+        padding: 8px 10px;
         align-items: center;
       }
       
@@ -611,6 +611,8 @@
         page-break-inside: avoid;
         border-color: #d7dde5;
         box-shadow: none;
+        break-before: page;
+        page-break-before: always;
       }
       
       .qtext { 
@@ -665,10 +667,12 @@
             <option>30</option>
             <option>40</option>
             <option>50</option>
+            <option>All</option>
           </select>
           
           <button id="theme" class="btn" type="button">Dark mode</button>
           <button id="pdf" class="btn" type="button">Generate PDF</button>
+          <button id="openall" class="btn" type="button">Open All Discussions</button>
         </div>
       </div>
     </div>
@@ -1211,37 +1215,51 @@
         setTheme(currentTheme === 'light' ? 'dark' : 'light');
       });
 
+      $('#openall')?.addEventListener('click', () => {
+        document.querySelectorAll('details.reveal').forEach(d => { d.open = true; });
+      });
+
       /* ==========================================
          PAGE SIZE MANAGEMENT
          ========================================== */
       (function initPageSize() {
         const selector = $('#pagesize');
         let storedPageSize = null;
-        
+
         try {
           storedPageSize = localStorage.getItem('page-size');
-        } catch(e) {
+        } catch (e) {
           console.warn('Cannot read page size preference:', e);
         }
-        
-        const validSizes = [10, 20, 30, 40, 50];
-        const defaultSize = storedPageSize && validSizes.includes(parseInt(storedPageSize, 10)) ? 
-          parseInt(storedPageSize, 10) : 10;
-          
-        PAGE_SIZE = defaultSize;
-        if (selector) selector.value = String(defaultSize);
-        
+
+        const numericSizes = [10, 20, 30, 40, 50];
+
+        // Initialize PAGE_SIZE and selector value
+        if (storedPageSize && String(storedPageSize).toLowerCase() === 'all') {
+          PAGE_SIZE = Number.MAX_SAFE_INTEGER;           // effectively "show all"
+          if (selector) selector.value = 'All';
+        } else {
+          const n = parseInt(storedPageSize || '10', 10);
+          PAGE_SIZE = numericSizes.includes(n) ? n : 10;
+          if (selector) selector.value = String(PAGE_SIZE);
+        }
+
+        // Handle user changes
         selector?.addEventListener('change', () => {
-          const newSize = parseInt(selector.value, 10);
-          PAGE_SIZE = validSizes.includes(newSize) ? newSize : 10;
-          
-          try { 
-            localStorage.setItem('page-size', String(PAGE_SIZE)); 
-          } catch(e) {
-            console.warn('Cannot save page size preference:', e);
+          const val = selector.value;
+
+          if (String(val).toLowerCase() === 'all') {
+            PAGE_SIZE = Number.MAX_SAFE_INTEGER;
+            try { localStorage.setItem('page-size', 'All'); } 
+            catch (e) { console.warn('Cannot save page size preference:', e); }
+          } else {
+            const newSize = parseInt(val, 10);
+            PAGE_SIZE = numericSizes.includes(newSize) ? newSize : 10;
+            try { localStorage.setItem('page-size', String(PAGE_SIZE)); } 
+            catch (e) { console.warn('Cannot save page size preference:', e); }
           }
-          
-          currentPage = 1; 
+
+          currentPage = 1;
           renderPage(currentPage);
         });
       })();
@@ -1328,19 +1346,40 @@
         return new Promise(resolve => {
           if (!images.length) return resolve();
           
+          // Force image reload to ensure they're fresh
+          images.forEach(img => {
+            if (!img.complete || img.naturalWidth === 0) {
+              const src = img.src;
+              img.src = '';
+              img.src = src;
+            }
+          });
+          
           let remainingImages = images.length;
           const onImageComplete = () => { 
-            if (--remainingImages <= 0) resolve(); 
+            if (--remainingImages <= 0) {
+              // Much longer delay to ensure images are fully rendered in print context
+              setTimeout(resolve, 2000);
+            }
           };
           
           images.forEach(img => {
-            if (img.complete) return onImageComplete();
-            img.addEventListener('load', onImageComplete, { once: true });
+            if (img.complete && img.naturalWidth > 0 && img.naturalHeight > 0) {
+              return onImageComplete();
+            }
+            
+            const checkImage = () => {
+              if (img.complete && img.naturalWidth > 0 && img.naturalHeight > 0) {
+                onImageComplete();
+              }
+            };
+            
+            img.addEventListener('load', checkImage, { once: true });
             img.addEventListener('error', onImageComplete, { once: true });
           });
           
-          // Safety timeout to prevent hanging
-          setTimeout(resolve, 4000);
+          // Much longer timeout for problematic images
+          setTimeout(resolve, 15000);
         });
       }
 
