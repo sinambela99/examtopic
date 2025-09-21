@@ -396,6 +396,32 @@
     /* ==========================================
        VOTING STATISTICS
        ========================================== */
+    /* Summary “correct vs other” bar */
+    .votes .summary { margin: 6px 0 12px; }
+    .summarybar {
+      position: relative;
+      height: 36px;
+      background: var(--vote-bg);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .summarybar .seg.seg-major {
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 0;               /* set from JS */
+      background: var(--vote-fill);
+    }
+    .summarybar .label {
+      position: absolute;
+      left: 10px; top: 50%;
+      transform: translateY(-50%);
+      font-weight: 800;
+      color: var(--primary-ink);
+      mix-blend-mode: normal;
+      pointer-events: none;
+    }
+    .legend { display: inline-flex; gap: 8px; margin-top: 6px; }
     .votes { 
       margin: 10px 0 14px; 
       background: var(--vote-bg); 
@@ -453,12 +479,36 @@
       margin: 12px 0; 
     }
 
-    .comment { 
-      border-left: 3px solid var(--border); 
-      margin: 10px 0; 
-      padding: 10px 12px; 
-      background: color-mix(in oklab, var(--surface) 96%, transparent); 
-      border-radius: 10px; 
+    .comment {
+      position: relative;
+      margin: 10px 0;
+      padding: 10px 12px 10px 14px;
+      background: color-mix(in oklab, var(--surface) 96%, transparent);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    /* vertical thread line on the left */
+    .comment::before {
+      content: "";
+      position: absolute;
+      left: 8px;
+      top: 0; bottom: 0;
+      width: 0px;
+      background: var(--border);
+      border-radius: 2px;
+      opacity: .9;
+    }
+    /* curve into a child comment */
+    .replies > .comment::after {
+      content: "";
+      position: absolute;
+      left: -18px;
+      top: 0px;
+      width: 16px;
+      height: 25px;
+      border-left: 2px solid #bbd0fd;
+      border-bottom: 2px solid #bbd0fd;
+      border-radius: 0 0 0 10px;
     }
 
     .comment .head { 
@@ -487,7 +537,24 @@
       background: var(--chip); 
       color: var(--chip-text); 
       border: 1px solid var(--border); 
-      font-size: .78rem; 
+      font-size: .78rem;  
+    }
+
+    /* badge color accents to match the screenshots */
+    .pill.hv {
+      background: color-mix(in oklab, var(--primary) 25%, var(--chip));
+      color: var(--primary-ink);
+      border-color: color-mix(in oklab, var(--primary), var(--border) 60%);
+    }
+    .pill.recent {
+      background: color-mix(in oklab, #38bdf8 22%, var(--chip));
+      color: #0c4a6e;
+      border-color: color-mix(in oklab, #38bdf8 50%, var(--border));
+    }
+    .pill.sel {
+      background: color-mix(in oklab, var(--correct) 20%, var(--chip));
+      color: #064e3b;
+      border-color: color-mix(in oklab, var(--correct), var(--border) 60%);
     }
 
     .txt { 
@@ -782,34 +849,71 @@
       const ALLOW_TAGS = new Set(['BR','B','STRONG','I','EM','U','CODE','PRE','P','UL','OL','LI','A','SPAN','DIV']);
       
       function sanitizeHTML(html) {
+        const URL_RE = /(?:https?:\/\/[^\s<>"']+|www\.[^\s<>"']+)/gi;
         const template = document.createElement('template');
         template.innerHTML = html || '';
-        
+
+        // Convert plain-text URLs in text nodes into <a> elements
+        const autoLinkTextNodes = (root) => {
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+          const toReplace = [];
+          let n;
+          while ((n = walker.nextNode())) {
+            const txt = n.nodeValue || '';
+            if (URL_RE.test(txt)) toReplace.push(n);
+            URL_RE.lastIndex = 0;
+          }
+          toReplace.forEach(textNode => {
+            const frag = document.createDocumentFragment();
+            let lastIndex = 0;
+            const text = textNode.nodeValue || '';
+            URL_RE.lastIndex = 0;
+            let m;
+            while ((m = URL_RE.exec(text))) {
+              // text before the match
+              if (m.index > lastIndex) {
+                frag.appendChild(document.createTextNode(text.slice(lastIndex, m.index)));
+              }
+              const urlText = m[0];
+              const a = document.createElement('a');
+              const href = /^https?:/i.test(urlText) ? urlText : `https://${urlText}`;
+              a.href = href;
+              a.textContent = urlText;
+              a.target = '_blank';
+              a.rel = 'noopener';
+              frag.appendChild(a);
+              lastIndex = m.index + urlText.length;
+            }
+            // remaining text
+            if (lastIndex < text.length) {
+              frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+            }
+            textNode.replaceWith(frag);
+          });
+        };
+
+        // First, auto-link any plain URLs in the provided HTML
+        autoLinkTextNodes(template.content);
+
+        // Then sanitize elements/attributes against the allowlist
         const walk = (node) => {
           [...node.childNodes].forEach(child => {
             if (child.nodeType === Node.ELEMENT_NODE) {
               const tag = child.tagName;
-              
               if (!ALLOW_TAGS.has(tag)) {
-                // Remove disallowed tags but keep their content
                 const fragment = document.createDocumentFragment();
-                while (child.firstChild) {
-                  fragment.appendChild(child.firstChild);
-                }
+                while (child.firstChild) fragment.appendChild(child.firstChild);
                 child.replaceWith(fragment);
               } else {
-                // Clean attributes for allowed tags
                 [...child.attributes].forEach(attr => {
                   const name = attr.name.toLowerCase();
-                  
                   if (tag === 'A' && name === 'href') {
                     const href = child.getAttribute('href') || '';
                     if (!/^https?:/i.test(href) && !href.startsWith('/')) {
                       child.removeAttribute('href');
                     } else {
-                      // Add security attributes for external links
-                      child.setAttribute('target', '_blank'); 
-                      child.setAttribute('rel', 'noopener'); 
+                      child.setAttribute('target', '_blank');
+                      child.setAttribute('rel', 'noopener');
                     }
                   } else {
                     child.removeAttribute(name);
@@ -820,11 +924,10 @@
             }
           });
         };
-        
         walk(template.content);
+
+        // serialize + small cosmetic fix
         let output = template.innerHTML;
-        
-        // Fix broken words split by <br> tags
         output = output.replace(/([A-Za-z])<br\s*\/?>([A-Za-z])/g, '$1 $2');
         return output;
       }
@@ -849,30 +952,52 @@
       /* ==========================================
          VOTING STATISTICS COMPONENT
          ========================================== */
-      function votesCard(votes, letters) {
-        // Calculate total from multi-answer vote combinations
-        const total = Object.values(votes || {}).reduce((sum, count) => sum + count, 0);
+      function votesCard(votes) {
+        const total = Object.values(votes || {}).reduce((sum, c) => sum + c, 0);
         const wrapper = el('div', 'votes');
         wrapper.appendChild(el('div', 'title', 'Answer votes'));
-        
-        // Display vote combinations (like "ABF", "ABC", etc.) instead of individual letters
-        Object.entries(votes || {}).forEach(([combination, count]) => {
-          if (count > 0) {
-            const row = el('div', 'vrow');
-            row.appendChild(el('div', 'lab', combination));
-            
-            const bar = el('div', 'vbar');
-            const fill = el('span');
-            const percentage = total ? Math.round(count * 100 / total) : 0;
-            
-            fill.style.width = percentage + '%';
-            bar.appendChild(fill);
-            row.appendChild(bar);
-            row.appendChild(el('div', 'cnt', `${count} • ${percentage}%`));
-            wrapper.appendChild(row);
-          }
+
+        // --- summary bar (dominant choice vs other) ---
+        const entries = Object.entries(votes || {}).sort((a,b) => b[1]-a[1]);
+        const [topKey, topCount] = entries[0] || ['', 0];
+        const topPct = total ? Math.round(topCount * 100 / total) : 0;
+
+        const summary = el('div', 'summary');
+        const sbar = el('div', 'summarybar');
+        // ARIA helps screen readers understand this as a progress indicator
+        sbar.setAttribute('role', 'progressbar');
+        sbar.setAttribute('aria-valuemin', '0');
+        sbar.setAttribute('aria-valuemax', '100');
+        sbar.setAttribute('aria-valuenow', String(topPct));
+
+        const major = el('div', 'seg seg-major');  // filled part
+        major.style.width = `${topPct}%`;
+        const label = el('div', 'label', `${topKey || '—'} (${topPct}%)`);
+        sbar.appendChild(major);
+        sbar.appendChild(label);
+        summary.appendChild(sbar);
+
+        const legend = el('div', 'legend');
+        legend.appendChild(pill(`${topKey || '—'} (${topPct}%)`));
+        legend.appendChild(pill('Other'));
+        summary.appendChild(legend);
+        wrapper.appendChild(summary);
+
+        // --- detailed rows for each combination as before ---
+        Object.entries(votes || {}).forEach(([combo, count]) => {
+          if (count <= 0) return;
+          const row = el('div', 'vrow');
+          row.appendChild(el('div', 'lab', combo));
+          const bar = el('div', 'vbar');
+          const fill = el('span');
+          const pctVal = total ? Math.round(count * 100 / total) : 0;
+          fill.style.width = pctVal + '%';
+          bar.appendChild(fill);
+          row.appendChild(bar);
+          row.appendChild(el('div', 'cnt', `${count} • ${pctVal}%`));
+          wrapper.appendChild(row);
         });
-        
+
         return wrapper;
       }
 
@@ -889,10 +1014,10 @@
         head.appendChild(el('span', 'author', node.author || '—'));
         
         const badges = el('span', 'badges');
-        if (node.is_highly_voted) badges.appendChild(pill('Highly Voted'));
-        if (node.is_most_recent) badges.appendChild(pill('Most Recent'));
-        if (node.selected_answer) badges.appendChild(pill(`Selected: ${node.selected_answer}`));
-        if (node.relative_time) badges.appendChild(pill(node.relative_time));
+        if (node.is_highly_voted) { const p = pill('Highly Voted'); p.classList.add('hv'); badges.appendChild(p); }
+        if (node.is_most_recent)  { const p = pill('Most Recent');  p.classList.add('recent'); badges.appendChild(p); }
+        if (node.selected_answer) { const p = pill(`Selected: ${node.selected_answer}`); p.classList.add('sel'); badges.appendChild(p); }
+        if (node.relative_time)   { badges.appendChild(pill(node.relative_time)); }
         badges.appendChild(pill(`▲ ${node.upvotes ?? 0}`));
         
         head.appendChild(badges); 
@@ -941,7 +1066,9 @@
           questionText.innerHTML = sanitizeHTML(question.question_html); 
           card.appendChild(questionText);
         } else if (question.question_text) { 
-          card.appendChild(el('div', 'qtext', question.question_text)); 
+          const q = el('div', 'qtext'); 
+          q.innerHTML = sanitizeHTML(question.question_text); 
+          card.appendChild(q); 
         }
         
         // Question images
@@ -964,7 +1091,7 @@
             if (chosenAnswer === letter) option.classList.add('selected');
             
             option.appendChild(el('div', 'letter', letter));
-            option.appendChild(el('div', 'text', question.options?.[letter] || ''));
+            { const t = el('div', 'text'); t.innerHTML = sanitizeHTML(question.options?.[letter] || ''); option.appendChild(t); }
             
             // Handle option selection
             option.addEventListener('click', () => {
@@ -1459,6 +1586,13 @@
       // PDF generation button handler
       $('#pdf')?.addEventListener('click', printAllPages);
     });
+
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a');
+      if (!a) return;
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }, true);
   </script>
 </body>
 </html>
