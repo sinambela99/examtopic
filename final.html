@@ -67,7 +67,7 @@
     header { 
       padding: 10px 10px; 
       position: sticky; 
-      top: 10px; 
+      top: 0px; 
       z-index: 10; 
       border-bottom: 1px solid var(--border);
       backdrop-filter: saturate(180%) blur(6px);
@@ -413,7 +413,7 @@
     .vrow { 
       display: flex; 
       align-items: center; 
-      gap: 12px; 
+      gap: 2%; 
       margin: 10px 0; 
     }
 
@@ -850,24 +850,27 @@
          VOTING STATISTICS COMPONENT
          ========================================== */
       function votesCard(votes, letters) {
-        const total = (letters || []).reduce((sum, letter) => sum + (votes?.[letter] || 0), 0);
+        // Calculate total from multi-answer vote combinations
+        const total = Object.values(votes || {}).reduce((sum, count) => sum + count, 0);
         const wrapper = el('div', 'votes');
         wrapper.appendChild(el('div', 'title', 'Answer votes'));
         
-        (letters || []).forEach(letter => {
-          const row = el('div', 'vrow');
-          row.appendChild(el('div', 'lab', letter));
-          
-          const bar = el('div', 'vbar');
-          const fill = el('span');
-          const count = votes?.[letter] || 0;
-          const percentage = total ? Math.round(count * 100 / total) : 0;
-          
-          fill.style.width = percentage + '%';
-          bar.appendChild(fill);
-          row.appendChild(bar);
-          row.appendChild(el('div', 'cnt', `${count} • ${percentage}%`));
-          wrapper.appendChild(row);
+        // Display vote combinations (like "ABF", "ABC", etc.) instead of individual letters
+        Object.entries(votes || {}).forEach(([combination, count]) => {
+          if (count > 0) {
+            const row = el('div', 'vrow');
+            row.appendChild(el('div', 'lab', combination));
+            
+            const bar = el('div', 'vbar');
+            const fill = el('span');
+            const percentage = total ? Math.round(count * 100 / total) : 0;
+            
+            fill.style.width = percentage + '%';
+            bar.appendChild(fill);
+            row.appendChild(bar);
+            row.appendChild(el('div', 'cnt', `${count} • ${percentage}%`));
+            wrapper.appendChild(row);
+          }
         });
         
         return wrapper;
@@ -983,7 +986,7 @@
         reveal.appendChild(summary);
 
         const meta = el('div', 'meta-top');
-        const totalVotes = showLetters.reduce((sum, letter) => sum + (question.votes?.[letter] || 0), 0);
+        const totalVotes = Object.values(question.votes || {}).reduce((sum, count) => sum + count, 0);
         meta.appendChild(el('span', null, question.correct_answer ? `Correct: ${question.correct_answer}` : 'Correct answer shown below'));
         if (hasOptions) meta.appendChild(pill(`Total votes: ${totalVotes}`));
         reveal.appendChild(meta);
@@ -994,7 +997,7 @@
         
         // Voting statistics
         if (hasOptions) {
-          reveal.appendChild(votesCard(question.votes || {}, showLetters));
+          reveal.appendChild(votesCard(question.votes || {}));
         }
 
         // Discussion section
@@ -1019,14 +1022,14 @@
             opt.classList.remove('correct', 'wrong');
             const letter = opt.dataset.letter;
             
-            // Mark correct answer
-            if (question.correct_answer && letter === question.correct_answer) {
+            // Mark correct answer - handle both single answers (A) and multi-answers (ABF)
+            if (question.correct_answer && question.correct_answer.includes(letter)) {
               opt.classList.add('correct');
             }
             
             // Mark wrong selection
             if (chosenAnswer && question.correct_answer && 
-                chosenAnswer !== question.correct_answer && letter === chosenAnswer) {
+                !question.correct_answer.includes(chosenAnswer) && letter === chosenAnswer) {
               opt.classList.add('wrong');
             }
           });
