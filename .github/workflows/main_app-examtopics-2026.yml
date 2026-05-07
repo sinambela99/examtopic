@@ -30,11 +30,17 @@ jobs:
 
       - name: Prepare Standalone Deployment
         run: |
-          # Copy static files to standalone directory
-          cp -r .next/static .next/standalone/.next/
-          # Public folder might not exist yet, but if it does, copy it
+          # Copy static assets
+          cp -r .next/static .next/standalone/.next/static
+          # Copy server build (the actual page bundles)
+          cp -r .next/server .next/standalone/.next/server
+          # Copy required manifest files
+          for f in BUILD_ID build-manifest.json prerender-manifest.json \
+                    routes-manifest.json required-server-files.json \
+                    app-build-manifest.json app-paths-manifest.json; do
+            [ -f ".next/$f" ] && cp ".next/$f" ".next/standalone/.next/$f" || true
+          done
           if [ -d "public" ]; then cp -r public .next/standalone/; fi
-          # Copy the data folder so API routes can read the JSONs
           cp -r data .next/standalone/
 
       - name: Upload artifact for deployment job
