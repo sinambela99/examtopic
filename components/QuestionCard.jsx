@@ -19,7 +19,7 @@ export default function QuestionCard({ question, index, selections, onSelect, fo
   const [revealOpen, setRevealOpen] = useState(forceOpenReveal);
 
   const questionId = question.question_id;
-  const chosenAnswer = selections.get(questionId) || null;
+  const chosenAnswer = selections.get(questionId) || '';
 
   // Available answer options
   const availableOptions = question.options || {};
@@ -34,16 +34,15 @@ export default function QuestionCard({ question, index, selections, onSelect, fo
   const getOptClass = useCallback(
     (letter) => {
       let cls = 'opt';
-      if (chosenAnswer === letter) cls += ' selected';
+      if (chosenAnswer.includes(letter)) cls += ' selected';
       if (revealOpen && hasOptions) {
         if (question.correct_answer && question.correct_answer.includes(letter)) {
           cls += ' correct';
         }
         if (
-          chosenAnswer &&
+          chosenAnswer.includes(letter) &&
           question.correct_answer &&
-          !question.correct_answer.includes(chosenAnswer) &&
-          letter === chosenAnswer
+          !question.correct_answer.includes(letter)
         ) {
           cls += ' wrong';
         }
@@ -54,7 +53,29 @@ export default function QuestionCard({ question, index, selections, onSelect, fo
   );
 
   const handleOptionClick = (letter) => {
-    onSelect(questionId, letter);
+    // Determine how many answers are required (default to 1)
+    const cleanAnswer = question.correct_answer ? question.correct_answer.replace(/[^A-Za-z]/g, '') : '';
+    const requiredCount = Math.max(1, cleanAnswer.length);
+
+    let current = chosenAnswer;
+
+    if (current.includes(letter)) {
+      // Toggle off if already selected
+      current = current.replace(letter, '');
+    } else {
+      // Add the new selection
+      if (current.length < requiredCount) {
+        current += letter;
+      } else {
+        // If at limit, remove the oldest selection (first char) and append the new one
+        current = current.slice(1) + letter;
+      }
+    }
+
+    // Sort alphabetically
+    current = current.split('').sort().join('');
+    
+    onSelect(questionId, current);
   };
 
   const handleRevealToggle = (e) => {
