@@ -20,6 +20,8 @@
   --vote-ink: #0b1d4d;
   --topicbar-bg: #119da4;
   --topicbar-ink: #ffffff;
+  --sel-text: #064e3b;
+  --reveal-bg: #f3f4f6;
 }
 
 /* Dark theme overrides */
@@ -40,6 +42,8 @@
   --vote-ink: #cbd5e1;
   --topicbar-bg: #178b91;
   --topicbar-ink: #eaf7f7;
+  --sel-text: #6ee7b7;
+  --reveal-bg: #1e293b;
 }
 
 /* ==========================================
@@ -367,7 +371,7 @@ details.reveal > summary {
   font-weight: 700;
   user-select: none;
   padding: 12px 14px;
-  background: #f3f4f6;
+  background: var(--reveal-bg);
   border-radius: 11px;
   color: var(--text);
   margin: 0;
@@ -544,7 +548,7 @@ details.reveal > summary::marker {
 }
 .pill.sel {
   background: color-mix(in oklab, var(--correct) 20%, var(--chip));
-  color: #064e3b;
+  color: var(--sel-text);
   border-color: color-mix(in oklab, var(--correct), var(--border) 60%);
 }
 
