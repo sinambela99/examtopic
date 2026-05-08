@@ -28,7 +28,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "6 months ago",
         "selected_answer": "C",
         "html": "Target refers to destination. You want to identify traffic originating from the server that is running the backdoor.",
         "upvotes": 5,
@@ -39,7 +39,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "C",
         "html": "https://docs.cloud.google.com/chronicle/docs/event-processing/udm-overview#the_principal_attributes",
         "upvotes": 1,
@@ -50,7 +50,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "4 months ago",
         "selected_answer": "C",
         "html": "C is correct. we should be looking for source port",
         "upvotes": 1,
@@ -61,14 +61,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 3 weeks ago",
+        "relative_time": "6 months ago",
         "selected_answer": "B",
         "html": "Detecting on target.port = 5555 is the most specific and effective way to catch the initial inbound connection or the internal machine listening/responding on that non-standard, known backdoor port.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -100,14 +100,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "4 months ago",
         "selected_answer": "C",
         "html": "EDR integration is correct for isolation",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -139,7 +139,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "B",
         "html": "https://docs.cloud.google.com/chronicle/docs/yara-l/getting-started#build-multievent-rule\nhttps://docs.cloud.google.com/chronicle/docs/yara-l/yara-l-2-0-examples#multiple-event-rule",
         "upvotes": 1,
@@ -150,7 +150,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "3 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B is closest to the question\n-\"Single file download events\"\n-Curated UEBA \"Anomalous Outbound Bytes by Device\" rules assign fixed risk score. Custom rules can assign higher risk scores dynamically",
         "upvotes": 2,
@@ -161,7 +161,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "4 months ago",
         "selected_answer": "B",
         "html": "Frequency-based YARA-L rules are designed to correlate multiple related events over time.\n\nAssigning a risk outcome score allows Google SecOps to increase risk as anomalies repeat, which aligns exactly with your requirement to give higher risk scores to repeated suspicious activity.",
         "upvotes": 2,
@@ -172,14 +172,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "4 months ago",
         "selected_answer": "D",
         "html": "UEBC curated rules",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -200,7 +200,7 @@
     "votes": {
       "A": 3,
       "B": 0,
-      "C": 1,
+      "C": 2,
       "D": 0
     },
     "correct_answer": "A",
@@ -211,10 +211,10 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "From CMDB you will just solve priority not volume. D helps with detection logic, C is the right one as this directly helps with volume by validating suspicious entities.",
-        "upvotes": 1,
+        "upvotes": 2,
         "replies": []
       },
       {
@@ -222,7 +222,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "4 months ago",
         "selected_answer": "A",
         "html": "Correct tag and label will help to prioritize and reduce false +ve",
         "upvotes": 3,
@@ -233,14 +233,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months ago",
+        "relative_time": "4 months, 2 weeks ago",
         "selected_answer": "",
         "html": "C or A ??????",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -272,7 +272,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "The requirement is to develop and test a new, complex YARA-L detection rule to ensure accuracy before production migration, while minimizing impact to production processes.\n\nThe Google Security Operations (SecOps) Rules Editor is specifically designed for development and testing, featuring a mechanism to validate rule logic against historical data without affecting live alerting.",
         "upvotes": 5,
@@ -283,7 +283,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "4 months ago",
+        "relative_time": "4 months, 2 weeks ago",
         "selected_answer": "C",
         "html": "Setting the rule to \"live\" risks consuming live detection processing resources",
         "upvotes": 3,
@@ -294,7 +294,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "4 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Setting the rule to \"live\" risks consuming live detection processing resources, which can impact overall production performance",
         "upvotes": 3,
@@ -305,14 +305,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months, 1 week ago",
         "selected_answer": "D",
         "html": "Why the answer given is A? it should be option D as how live rule with alerting off and retrohunt enabled is affecting the production process",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -344,7 +344,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "4 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "Soar environment provide data segregation and Google SecOps SOAR environments reside within the same overall Google SecOps instance. This means that playbooks developed by your organization are available and can be re-purposed",
         "upvotes": 6,
@@ -355,14 +355,14 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "4 months ago",
         "selected_answer": "D",
         "html": "Soar environment provide data segregation and Google SecOps SOAR",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -389,7 +389,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -421,14 +421,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "A",
         "html": "Your organization uses Cloud Identity -&gt; A or B\n including detection engine rules -&gt; A\nhttps://docs.cloud.google.com/iam/docs/workforce-identity-federation#what-is-wfif\nhttps://docs.cloud.google.com/chronicle/docs/onboard/configure-feature-access#predefined-roles",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -460,7 +460,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months ago",
+        "relative_time": "4 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "unknown command and control nodes (C2s)",
         "upvotes": 2,
@@ -471,14 +471,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "4 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "Asks for unknown C2s. By definition, a new, custom-developed C2 will not be in your ingested threat intelligence yet, making A response ineffective for finding truly novel threats.",
         "upvotes": 4,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -507,7 +507,7 @@
     "correct_answer": "AB",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -534,7 +534,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -566,7 +566,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months, 1 week ago",
         "selected_answer": "B",
         "html": "Parser extension can fix the timestamp",
         "upvotes": 5,
@@ -577,7 +577,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "3 months, 3 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "B",
         "html": "B. Create a parser extension to correct the time zone.",
         "upvotes": 4,
@@ -588,7 +588,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "4 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Time zone can be fixed with custom parsers",
         "upvotes": 1,
@@ -599,7 +599,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months, 1 week ago",
         "selected_answer": "C",
         "html": "A is incorrect because a default parser can not be modified\nB is incorrect because parser extensions can not fix the timestamps\nC is correct because you need to create a customer parser to add a time zone setting or adjust the timestamp fields.\nD is incorrect because the UI time zone settings don’t change the collected or ingested time zones.",
         "upvotes": 1,
@@ -609,7 +609,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "4 months, 3 weeks ago",
+            "relative_time": "5 months, 1 week ago",
             "selected_answer": "",
             "html": "Parser extension can fix the timestamp! B is correct",
             "upvotes": 3,
@@ -618,7 +618,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -645,7 +645,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -672,7 +672,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -699,7 +699,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -719,14 +719,26 @@
     },
     "votes": {
       "A": 0,
-      "B": 0,
+      "B": 1,
       "C": 0,
       "D": 0
     },
     "correct_answer": "B",
     "correct_answer_images": [],
-    "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "discussion": [
+      {
+        "author": "ecd484d",
+        "meta": "",
+        "is_highly_voted": false,
+        "is_most_recent": false,
+        "relative_time": "1 week ago",
+        "selected_answer": "B",
+        "html": "Should this read Sync instead of Sink ?",
+        "upvotes": 1,
+        "replies": []
+      }
+    ],
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -753,7 +765,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -780,7 +792,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -807,7 +819,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -834,7 +846,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -861,7 +873,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -888,7 +900,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -915,7 +927,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -942,7 +954,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -969,7 +981,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -996,7 +1008,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1023,7 +1035,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1044,13 +1056,25 @@
     "votes": {
       "A": 0,
       "B": 0,
-      "C": 0,
+      "C": 1,
       "D": 0
     },
     "correct_answer": "D",
     "correct_answer_images": [],
-    "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "discussion": [
+      {
+        "author": "ecd484d",
+        "meta": "",
+        "is_highly_voted": false,
+        "is_most_recent": false,
+        "relative_time": "1 week, 1 day ago",
+        "selected_answer": "C",
+        "html": "Just saying that if you want it done quickly allowing it auto correct itself wont be the most efficient so I say C",
+        "upvotes": 1,
+        "replies": []
+      }
+    ],
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1077,7 +1101,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1104,7 +1128,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1131,7 +1155,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1158,7 +1182,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1190,7 +1214,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months ago",
+        "relative_time": "4 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "The first action you should take is to analyze the suspicious login attempts using the UDM Search feature within Google Security Operations (SecOps)",
         "upvotes": 3,
@@ -1201,14 +1225,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "Corrected Answer : B",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1235,7 +1259,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1262,7 +1286,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1294,14 +1318,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Create a custom Security Health Analytics module.\n\nScan Cloud Asset Inventory for Compute Engine instances. Filter on compute.googleapis.com/Instance assets. Match the compliance=pci tag. Check for the presence of an external IP address. Generate findings when both conditions match. This delivers targeted monitoring and alerting for PCI scoped workloads.",
         "upvotes": 4,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1328,7 +1352,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1355,7 +1379,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1382,7 +1406,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1409,7 +1433,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1436,7 +1460,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1463,7 +1487,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1490,7 +1514,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1526,7 +1550,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "BD",
         "html": "E is not correct, this is for known indicators",
         "upvotes": 1,
@@ -1537,14 +1561,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 3 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "BE",
         "html": "B and E true",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1571,7 +1595,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1598,7 +1622,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1625,7 +1649,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1652,7 +1676,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1684,14 +1708,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Automation Requirement: The requirement specifies an automatic and efficient approach. This eliminates options A and D, which rely on manual steps or analyst selection.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1718,7 +1742,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1745,7 +1769,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1772,7 +1796,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1799,7 +1823,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1826,7 +1850,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1858,14 +1882,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months, 1 week ago",
         "selected_answer": "A",
         "html": "Views in Google SecOps allow you to customize the content, layout, and visibility of the interface (including which widgets or information is shown) based on the user's Role (e.g., L1 Analyst, Threat Hunter, Manager). By creating a specific view for each role, you ensure they only see the data relevant to their function when interacting with the alert/case.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1894,7 +1918,7 @@
     "correct_answer": "DE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1921,7 +1945,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1948,7 +1972,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1980,14 +2004,14 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "B &amp; C. Perform a YARA-L 2.0 or UDM search...: Searching and pivoting (Options B and C) only confirm the initial observation (the impossible travel itself). They do not automatically provide the downstream context (risk score, related alerts, post-login activity) needed to validate the compromise and determine the severity.\n\nD. Run a YARA-L retrohunt rule...: A retrohunt is useful for historical analysis, but the goal is to validate the active finding as quickly as possible. The validation should start with the existing, real-time risk context. Furthermore, the platform's Curated Detections often include built-in Impossible Travel rules, making a custom retrohunt redundant as a first step.",
         "upvotes": 5,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2014,7 +2038,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2041,7 +2065,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2068,7 +2092,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2095,7 +2119,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2122,7 +2146,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2149,7 +2173,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2176,7 +2200,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2203,7 +2227,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2235,7 +2259,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "Centralized Network Configuration: Google SecOps (across both SIEM and SOAR components) maintains a centralized list of your organization's internal IP ranges (known as Internal Networks or similar configuration within the SOAR platform settings) (Source 1.1).\n\nAutomatic Labeling: When an IP address appears in an alert or case, the platform automatically checks it against this configured list. If the IP falls within one of the defined CIDR ranges, the platform automatically labels the IP address entity as internal and, crucially, associates it with the specific network name you provided in the configuration (Source 1.2).",
         "upvotes": 1,
@@ -2246,14 +2270,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months, 1 week ago",
         "selected_answer": "A",
         "html": "B is not used to define an internal entity, and the playbook can't do this if it relies not he enrichment in the first place. Chicken and Egg",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2280,7 +2304,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2307,7 +2331,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2334,7 +2358,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2361,7 +2385,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2388,7 +2412,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2417,7 +2441,7 @@
     "correct_answer": "AC",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2444,7 +2468,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2471,7 +2495,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2498,7 +2522,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2525,7 +2549,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2552,7 +2576,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2584,14 +2608,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "B",
         "html": "B\nhttps://docs.cloud.google.com/chronicle/docs/ingestion/default-parsers/azure-ad-audit",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2618,7 +2642,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2645,7 +2669,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2677,14 +2701,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "A. Write a code snippet, and deploy it in a parser extension to map both fields to UDM.",
         "upvotes": 4,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2711,7 +2735,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2738,7 +2762,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2765,7 +2789,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2797,7 +2821,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 3 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "A",
         "html": "Automated Triage Playbook",
         "upvotes": 2,
@@ -2808,14 +2832,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 3 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "A",
         "html": "In the scenario described, the failure was human: a Tier 1 analyst performed manual tasks (adding headers and files) but failed to escalate correctly, leading to an SLA breach. Option A addresses the root cause by replacing manual steps with automation:",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2844,7 +2868,7 @@
     "correct_answer": "BE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2873,7 +2897,7 @@
     "correct_answer": "BC",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2902,7 +2926,7 @@
     "correct_answer": "DE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2929,7 +2953,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2961,14 +2985,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "A",
         "html": "Implementing a posture in Security Command Center (SCC) enables the scanning and detection of misconfigurations (e.g., it turns on the detectors). However, the act of generating a formal \"Audit Report with Evidence\" is the specific domain of Audit Manager. SCC provides the data; Audit Manager provides the report.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2995,7 +3019,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3022,7 +3046,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3049,7 +3073,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3076,7 +3100,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3108,14 +3132,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 week, 5 days ago",
+        "relative_time": "3 weeks, 4 days ago",
         "selected_answer": "C",
         "html": "In Google SecOps (Chronicle), a rule that triggers on \"excessive connections\" often fires an individual alert for every single event that meets the criteria. This creates a \"flood\" of alerts in the UI for what is essentially one single malicious or suspicious behavior.\n\nBy using the match: section with a timeframe (like 10 minutes), you tell the detection engine to aggregate all related events into a single detection.\n\nThe Benefit: Instead of 500 alerts for 500 connections, you get one alert that contains all 500 events. This drastically reduces the alert volume (noise) without changing the logic of what you are actually detecting (effectiveness).",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3147,7 +3171,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 3 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "D",
         "html": "Risk Analytics",
         "upvotes": 1,
@@ -3158,14 +3182,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "Behavioral Analytics (Risk Analytics): This feature of SecOps processes all ingested activity to calculate a risk score for every user and asset. It is designed to identify deviations from established baseline behavior (e.g., a user account suddenly executing PowerShell on multiple machines and initiating unusual outbound connections).",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3192,7 +3216,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3224,7 +3248,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "GTI Collections: Google Threat Intelligence allows users to create Collections—curated, manageable groupings of related IOCs, threat actors, and TTPs (Source 1.1).\n\nCollaboration and Integration:\n\nSharing: Collections are designed to be easily shared with other security teams within the organization, enabling collaboration (Source 1.2).",
         "upvotes": 5,
@@ -3235,14 +3259,14 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "3 months, 4 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "",
         "html": "\"Collaboration and Sharing\"\nAnswer: C",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3274,7 +3298,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "The detection engineering team's requirements—User identity behavior, Lateral movement, and Privilege escalation attempts—all heavily rely on visibility into who is doing what to which resources. These actions are primarily tracked, controlled, and logged by the Identity and Access Management (IAM) layer in a cloud-heavy enterprise.\n\nThe log source that provides the most critical and foundational visibility into all three categories in a cloud environment is:",
         "upvotes": 4,
@@ -3284,7 +3308,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "3 months, 4 weeks ago",
+            "relative_time": "4 months, 1 week ago",
             "selected_answer": "",
             "html": "correct ! \nanswer C",
             "upvotes": 3,
@@ -3293,7 +3317,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3325,14 +3349,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 4 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "C",
         "html": "Answer: C",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3361,7 +3385,7 @@
     "correct_answer": "BD",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3393,7 +3417,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "The corrected answer C",
         "upvotes": 2,
@@ -3404,7 +3428,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "The requirement is for a scheduled, automated export of structured data (case resolutions and SLA metrics) from SOAR (case management), formatted as a zipped CSV file, and delivered via email.\n\nThe correct approach is to use the dedicated reporting tool within the SOAR platform.",
         "upvotes": 2,
@@ -3415,14 +3439,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "C",
         "html": "Statistics in search does not get case information. You can user advanced report to get the data and schedule a report in csv format that will be send as zip file.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3449,7 +3473,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3481,7 +3505,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "The issue is that a curated detection rule for network indicators is generating a vast number of false positives specifically from your on-premises proxy servers. You need to reduce the number of alerts.\n\nA network indicator rule typically alerts when an internal entity tries to connect to a known bad external entity (IP or domain). In this scenario, the proxy server is the source of nearly all your network traffic as seen by the detection rule.\n\nThe source of the false positives is the proxy server's IP address being recorded as the initiating endpoint for the connection in the detection rule's matching fields.",
         "upvotes": 2,
@@ -3492,14 +3516,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "B",
         "html": "The correct answer is B\nhttps://docs.cloud.google.com/chronicle/docs/detection/rule-exclusions?utm_source=chatgpt.com",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3526,7 +3550,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3553,7 +3577,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3580,7 +3604,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3607,7 +3631,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3639,14 +3663,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 3 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "D",
         "html": "For an on-prem MySQL log source, the lowest-effort, standard approach is to use Bindplane as the collection layer on-prem to collect/parse/ship the MySQL logs into Google SecOps.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3673,7 +3697,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3702,7 +3726,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3729,7 +3753,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3761,7 +3785,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 3 weeks ago",
+        "relative_time": "4 months, 1 week ago",
         "selected_answer": "C",
         "html": "manual action + Google SecOps SIEM",
         "upvotes": 1,
@@ -3772,7 +3796,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 1 week ago",
+        "relative_time": "4 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "The goal is to quickly identify devices and users who have interacted with a known malicious file hash. This requires searching the organization's ingested security logs (the historical data lake) for the presence of the hash.\n\nIn Google Security Operations (SecOps), the central repository for all normalized security logs is the SIEM (Security Information and Event Management), where data is structured using the Unified Data Model (UDM).\n\nThe most efficient way for an analyst working a case to initiate a targeted search for historical data is through a manual action, which triggers the search within the SIEM environment.",
         "upvotes": 2,
@@ -3783,14 +3807,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "4 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "A playbook can take time. it says quickly",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3817,7 +3841,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3844,7 +3868,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3871,7 +3895,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3898,7 +3922,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3925,7 +3949,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3947,12 +3971,24 @@
       "A": 0,
       "B": 0,
       "C": 0,
-      "D": 0
+      "D": 1
     },
     "correct_answer": "C",
     "correct_answer_images": [],
-    "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "discussion": [
+      {
+        "author": "ecd484d",
+        "meta": "",
+        "is_highly_voted": false,
+        "is_most_recent": false,
+        "relative_time": "1 week, 1 day ago",
+        "selected_answer": "D",
+        "html": "I think its D",
+        "upvotes": 1,
+        "replies": []
+      }
+    ],
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3979,7 +4015,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4006,7 +4042,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4033,7 +4069,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4062,7 +4098,7 @@
     "correct_answer": "DE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4089,7 +4125,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4116,7 +4152,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4143,7 +4179,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4170,7 +4206,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4197,7 +4233,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4229,7 +4265,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 day, 20 hours ago",
+        "relative_time": "2 weeks ago",
         "selected_answer": "D",
         "html": "feed management not supporting direct on-prem pulling.",
         "upvotes": 1,
@@ -4240,14 +4276,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 2 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "D",
         "html": "feed management not supporting direct on-prem pulling.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4274,7 +4310,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4301,7 +4337,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-04-25T08:54:23.438342+00:00",
+    "scraped_at": "2026-05-08T04:15:18.277145+00:00",
     "dump_updated_text": ""
   }
 ]
