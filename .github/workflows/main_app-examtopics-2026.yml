@@ -48,21 +48,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    permissions:
-      id-token: write
-      contents: read
 
     steps:
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_E1A9A6F0323A4AD6A89FD19ABBBC6FFD }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_B4536C75021C4F1A984B4388E5D81462 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_04A622206EB340EC9352EBD1A6DC4147 }}
-
-      - name: Deploy to Azure Web App (Container)
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'app-examtopics-2026'
-          slot-name: 'Production'
-          images: '${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest'
+      - name: Trigger Azure webhook
+        run: |
+          curl -X POST "${{ secrets.AZURE_WEBHOOK_URL }}"
