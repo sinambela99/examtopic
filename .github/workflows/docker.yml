@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  IMAGE_VERSION: v2
+
 jobs:
   docker:
     runs-on: ubuntu-latest
@@ -26,8 +29,9 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}:latest .
+          docker build -t ghcr.io/${{ github.repository }}:${{ env.IMAGE_VERSION }} -t ghcr.io/${{ github.repository }}:latest .
 
       - name: Push Docker Image
         run: |
+          docker push ghcr.io/${{ github.repository }}:${{ env.IMAGE_VERSION }}
           docker push ghcr.io/${{ github.repository }}:latest
