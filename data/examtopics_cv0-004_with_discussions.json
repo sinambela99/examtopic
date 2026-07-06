@@ -28,7 +28,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "GraphQl makes the most sense SQL and RPC do not make sense and Websockets can not querry. \n\nGraphQL is like the SQL of the API world allowing you to querry data.",
         "upvotes": 2,
@@ -61,7 +61,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 year, 6 months ago",
+        "relative_time": "1 year, 7 months ago",
         "selected_answer": "D",
         "html": "I think I got maybe 2 questions from this list on the exam? Nothing else was on it.",
         "upvotes": 2,
@@ -71,7 +71,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "1 year, 2 months ago",
+            "relative_time": "1 year, 3 months ago",
             "selected_answer": "",
             "html": "What did you use to study?",
             "upvotes": 1,
@@ -80,7 +80,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -112,7 +112,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "computer vision agreed",
         "upvotes": 1,
@@ -141,7 +141,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -173,7 +173,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "PaaS \n\nDeploy their own code so not :SaaS\n with out additional resources. so not: IaaS \nXaaS is anything as a service so does not make sense in this context.",
         "upvotes": 1,
@@ -184,7 +184,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "10 months, 3 weeks ago",
+        "relative_time": "11 months ago",
         "selected_answer": "A",
         "html": "in PaaS its a platform with an already built in infrastructure , thus make it eliminate the manangement of the hardware and networks",
         "upvotes": 1,
@@ -202,7 +202,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -234,7 +234,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "Encrypt data at rest is almost always the answer !!",
         "upvotes": 1,
@@ -245,14 +245,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "10 months, 3 weeks ago",
+        "relative_time": "11 months ago",
         "selected_answer": "D",
         "html": "in summary data need to be encrypted in rest and in transit so in this case the data should have been encrypted while at rest so that even if the intrusion is successful but the data is not usable",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -284,7 +284,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "IPS not specific to web application ( not a bad answer but WAF is better) \nACL are only good for blocking IPS, ports, protocol (think network layer not app layer) \nDLP keeps apps secure from spillage of data not protecting application\nWAF is the right answer its specific for blocking most common web attacks",
         "upvotes": 1,
@@ -295,7 +295,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 3 weeks ago",
+        "relative_time": "10 months ago",
         "selected_answer": "A",
         "html": "IPS can detect and block malicious traffic pattern.",
         "upvotes": 1,
@@ -306,14 +306,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 3 weeks ago",
+        "relative_time": "12 months ago",
         "selected_answer": "D",
         "html": "WAF (Web Application Firewall): A WAF is specifically designed to protect web applications from common web-based attacks, including remote command execution, SQL injection, cross-site scripting (XSS), and more. It inspects HTTP/S traffic and can block malicious requests based on predefined rules or learned behavior. This makes it highly effective at preventing exploitation of application-layer vulnerabilities.",
         "upvotes": 4,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -345,7 +345,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "I guess SAN can work on ethernet using iSCSI \nso only d makes sense NAS is way slower than a SAN think about how long your sharedrive takes compared to pulling data from a legit data center.",
         "upvotes": 1,
@@ -363,7 +363,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -395,7 +395,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "tracing to detect HTTP checks all the boxes",
         "upvotes": 1,
@@ -413,7 +413,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -447,14 +447,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "nonroot clause is a must",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -493,7 +493,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -537,7 +537,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -557,7 +557,7 @@
     },
     "votes": {
       "A": 0,
-      "B": 2,
+      "B": 3,
       "C": 0,
       "D": 0
     },
@@ -569,14 +569,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 3 weeks ago",
+        "relative_time": "6 months ago",
         "selected_answer": "B",
         "html": "Containers are a lightweight form of virtualization that allows applications to share a single host operating system (OS), significantly reducing the overhead associated with managing multiple individual operating systems, as is required with VMs. This approach optimizes cloud resources and streamlines management, aligning with the company's goals.",
-        "upvotes": 2,
+        "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -608,14 +608,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Distributed Denial of Service (DDoS) attack is the most likely cause because its primary symptom is a sudden, significant increase in response times or service unavailability. In this scenario, the fact that internal monitoring reports no issues suggests that the servers themselves are technically healthy (not crashing or showing internal errors), but are being overwhelmed by external traffic that consumes available bandwidth or processing queues. This creates a bottleneck that affects global users' ability to reach the home page.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -647,14 +647,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Moving an application from an on-premises environment (a local VM cluster) to the cloud is the most effective way to meet the requirements of high availability and external accessibility.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -686,14 +686,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "In version control systems like Git (commonly used in cloud architecture workflows), protected branches are configured to prevent direct modifications (such as direct pushes or deletes) to ensure code integrity and prevent accidental data loss. When a cloud architect receives an error while trying to modify such a branch, the standard and recommended workflow is to create a pull request (PR).",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -725,14 +725,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Ephemeral storage is a temporary type of storage that is tied directly to the lifecycle of a specific container or pod. When a container crashes, stops, or restarts, any data written to its local ephemeral storage is permanently lost and the container starts again with a \"clean slate\".",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -761,7 +761,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -793,14 +793,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "The instruction to store data for a specific duration (in this case, one year) is a classic example of a data retention policy. Retention refers to the practice of maintaining and preserving data for a set period to meet legal, regulatory, or compliance requirements.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -832,14 +832,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "The Blue-green deployment strategy is specifically designed to work with two identical platforms",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -871,14 +871,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Archive storage is the most cost-effective tier for long-term data retention required by regulatory or legal compliance",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -917,7 +917,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -949,7 +949,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 3 weeks ago",
+        "relative_time": "10 months ago",
         "selected_answer": "A",
         "html": "The literature supports:\nScanning involves using specialized tools to actively search for vulnerabilities across an organization's systems and networks. This initial phase identifies potential weaknesses that may have been recently introduced.",
         "upvotes": 1,
@@ -960,7 +960,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 3 weeks ago",
+        "relative_time": "10 months ago",
         "selected_answer": "A",
         "html": "The literature supports:\nScanning involves using specialized tools to actively search for vulnerabilities across an organization's systems and networks. This initial phase identifies potential weaknesses that may have been recently introduced.",
         "upvotes": 1,
@@ -971,7 +971,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 1 week ago",
         "selected_answer": "A",
         "html": "The phase of vulnerability management that includes discovering newly introduced security vulnerabilities is A. Scanning. \nExplanation: Scanning uses tools to actively search for vulnerabilities across an organization's systems and networks, identifying potential weaknesses that may have been recently introduced. \nKey points about the other options:\nIdentification:\nThis phase follows scanning and involves analyzing the scan results to determine the specific vulnerabilities present and their severity",
         "upvotes": 2,
@@ -982,14 +982,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "The phase of vulnerability management that includes discovering newly introduced security vulnerabilities is A. Scanning.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1021,7 +1021,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "Correct answer: B. API rate limiting\n\nAPI rate limiting restricts the number of requests a client can make in a given time window. Sending too many requests too quickly can trigger throttling, causing requests to be blocked and impacting availability for other users.",
         "upvotes": 1,
@@ -1032,7 +1032,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "yes api limit",
         "upvotes": 1,
@@ -1043,7 +1043,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 1 week ago",
         "selected_answer": "B",
         "html": "API Rate Limiting: This is a mechanism implemented by many online services, including SaaS applications, to control the number of requests a user or client can make to their API within a specific timeframe. The primary goal is to protect the API and underlying infrastructure from being overwhelmed, misused, or abused. When a developer sends multiple requests in a short time and the entire server and other users are affected, it indicates that the rate limit has likely been exceeded, causing the application to temporarily block requests to maintain stability.",
         "upvotes": 2,
@@ -1054,7 +1054,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "I think its' A\nCloud providers set service quotas (aka limits) to prevent overuse of resources.\nThese can apply to API calls, compute resources, bandwidth, etc.",
         "upvotes": 1,
@@ -1072,7 +1072,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1104,14 +1104,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 3 weeks ago",
+        "relative_time": "10 months ago",
         "selected_answer": "C",
         "html": "REST APIs operating over HTTPS is the standard and recommended practice for secure communication. HTTPS (Hypertext Transfer Protocol Secure) provides an encrypted connection between the client and the server, ensuring the confidentiality and integrity of the data exchanged.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1145,14 +1145,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "The most likely cause of a website crash characterized by the described logs is a Distributed Denial of Service (DDoS) attack. \nExamTopics\nExamTopics\n +2\nSudden Crash: DDoS attacks typically overwhelm a server with a massive volume of traffic or requests, causing it to become unresponsive or crash suddenly.\nLog Indicators: In this context, logs typically show a sudden surge in requests (e.g., hundreds or thousands of simultaneous hits to the homepage) followed by 502 Bad Gateway or 503 Service Unavailable errors as the backend infrastructure fails to handle the load.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1184,14 +1184,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 3 weeks ago",
+        "relative_time": "10 months ago",
         "selected_answer": "D",
         "html": "The best description of a hot site characteristic is D. All servers are replicated from the main site in an online status. \nExplanation: A hot site is a fully operational replica of the primary production environment, meaning all servers and data are continuously replicated, ensuring near-instantaneous failover in the event of a disaster at the main site.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1218,7 +1218,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1245,7 +1245,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1284,7 +1284,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1311,7 +1311,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1338,7 +1338,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1377,7 +1377,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1416,7 +1416,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1455,7 +1455,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1487,14 +1487,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "Using Terraform for Infrastructure as Code (IaC) allows architects to define and maintain resources consistently across multiple stages. By utilizing templates and environment variables, the exact same infrastructure definitions can be reused, with only specific parameters (such as resource sizes or database endpoints) differing between environments.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1526,14 +1526,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "Data Loss Prevention (DLP) is specifically designed to detect and prevent the unauthorized transmission of sensitive information, such as Personally Identifiable Information (PII). In a cloud email system, DLP can scan outgoing messages and attachments for patterns (like Social Security numbers or medical IDs) and block them from being sent, ensuring the organization meets strict compliance requirements like HIPAA.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1565,7 +1565,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "1 year, 5 months ago",
+        "relative_time": "1 year, 6 months ago",
         "selected_answer": "A",
         "html": "@BlueMan93 I hear you.. although I don't believe EDR solutions are available for a lot of CMS or IaaS platforms.\n\nNetwork flow logs achieve the same goal (for this question) however are a bit more of agnostic and typically are included with most CMS or IaaS solutions.\n\nI'll stick with A unless someone can prove otherwise.",
         "upvotes": 6,
@@ -1594,7 +1594,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1626,7 +1626,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "A",
         "html": "How can it be C if by definition the other options are considered “off-site”? The whole point of any site is that it’s “off-site”. The only logical answer would be “cold site” since the question specifies “most cost-effective” and “infrequently accessed”.",
         "upvotes": 2,
@@ -1666,7 +1666,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1705,7 +1705,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1766,7 +1766,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1805,7 +1805,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1877,7 +1877,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 year, 5 months ago",
+        "relative_time": "1 year, 6 months ago",
         "selected_answer": "AD",
         "html": "F is definitely not correct. If you do this you'll reduce the available IPs from ~254 to ~127.\n\nA and D makes the most sense to me.\n\nA: Will increase the available IP's from ~254 to ~510\nD: Explicitly allows the IT subnet to talk to the other subnets. (I would think this would be done via a firewall rule but technically a static route could work)",
         "upvotes": 2,
@@ -1895,7 +1895,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1927,14 +1927,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "A serverless function (such as AWS Lambda or Azure Functions) is the most optimal resource for running a single scripted task on a schedule for the following reasons: \nEvent-Driven Design: They are specifically designed for short-lived, event-driven tasks that can be triggered by a timer or a cloud-based scheduler.\nCost Efficiency: You only pay for the exact duration the script runs. Unlike servers that must remain powered on to execute a task, serverless resources \"scale to zero\" when not in use.\nMinimal Management: The cloud provider handles all infrastructure management, including provisioning, patching, and resource allocation, allowing you to focus entirely on the script's logic",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1966,7 +1966,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. Ephemeral\nEphemeral storage is temporary and used only for short-term processing. In this scenario, videos are stored locally only until they are uploaded to the cloud and then deleted, which matches the definition of ephemeral storage.",
         "upvotes": 2,
@@ -1977,7 +1977,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "I think this is A\nSince videos are explicitly deleted after upload and the storage holds data reliably in the meantime, it’s best classified as persistent storage being used as temporary storage.",
         "upvotes": 1,
@@ -1987,7 +1987,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "5 months, 2 weeks ago",
+            "relative_time": "5 months, 4 weeks ago",
             "selected_answer": "",
             "html": "Persistent storage retains data long-term, even after power loss or system restarts.\nIn the scenario, videos are explicitly deleted after upload, so the data is not meant to persist.\nThis directly contradicts the definition of persistent storage.",
             "upvotes": 1,
@@ -2007,7 +2007,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2046,7 +2046,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2090,7 +2090,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2131,7 +2131,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2163,7 +2163,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "A. Review the development network routing table.\nThe site-to-site VPN tunnel is established, so the tunnel and ciphers are working. Client VPN users can connect successfully, meaning ACLs/security rules are likely correct.\nA missing or incorrect route in the development network routing table would allow traffic in, but prevent traffic back out to the office",
         "upvotes": 2,
@@ -2174,7 +2174,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 1 week ago",
+        "relative_time": "7 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "A. Review the development network routing table.\n\nThe VPN tunnel is up, so not a cipher or restart issue. If ACLs were the issue, the client VPN users would fail too.",
         "upvotes": 4,
@@ -2185,7 +2185,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 1 week ago",
         "selected_answer": "D",
         "html": "Traffic is reaching the development network: Confirmed by firewall flow logs.",
         "upvotes": 1,
@@ -2229,7 +2229,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 year, 2 months ago",
+        "relative_time": "1 year, 3 months ago",
         "selected_answer": "D",
         "html": "D: IDK why you would Review the routing table if you confirm your traffic is going to development",
         "upvotes": 2,
@@ -2239,7 +2239,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months, 1 week ago",
+            "relative_time": "2 months, 2 weeks ago",
             "selected_answer": "",
             "html": "Yes thats correct... but is the traffic able to traverse back from development to office? Checking routing table will also show if there is any acl issue that needs correction.",
             "upvotes": 1,
@@ -2262,7 +2262,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months, 1 week ago",
+            "relative_time": "2 months, 2 weeks ago",
             "selected_answer": "",
             "html": "I thought so too.... but think about it practically, if there is any network connectivity issue between P2P, we would 1st check the routing table, confirming a host in network A (office) can reach another host in network B (dev). Practically speaking, checking the route is the most natural 1st instinct of anyone working in the network field.",
             "upvotes": 1,
@@ -2271,7 +2271,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2303,7 +2303,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "C",
         "html": "I think C",
         "upvotes": 1,
@@ -2343,7 +2343,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2377,14 +2377,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 year, 5 months ago",
+        "relative_time": "1 year, 6 months ago",
         "selected_answer": "A",
         "html": "The logs show multiple attempts to exploit the login functionality of a web application using SQL injection techniques. Here are the key indicators:\n\nThe payloads include patterns like:\nor 1=1: A common SQL injection technique to bypass authentication by manipulating the query logic to always evaluate as true.\n\n';: This is used to terminate a SQL query and inject additional commands.\n\n%27, %26, %3B: URL-encoded characters for ', &amp;, and ;, which are often used in SQL injection attacks to manipulate queries.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2411,7 +2411,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2443,14 +2443,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "Data sovereignty refers to the principle that data is subject to the laws of the country in which it is physically located or processed. As a website expands globally, photos stored in different regions must comply with local intellectual property and privacy regulations.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2482,14 +2482,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Live replication (often referred to as synchronous or real-time replication) continuously copies data as it is written. This ensures that the destination VM is an exact, \"hot\" copy of the source, allowing for near-instantaneous failover if the primary site goes down.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2521,7 +2521,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Major vs. Minor Upgrades: Moving from version 3.2 to 4.1 is a major version upgrade. These typically include architectural changes, deprecated features, or breaking API changes that could crash the mail server or web application.\nDue Diligence: Before touching any environment (Dev or Prod), an engineer must understand the compatibility requirements. Release notes will specify if version 4.1 requires a different database version, more RAM, or specific configuration changes that version 3.7 (a minor update) might not.",
         "upvotes": 1,
@@ -2532,7 +2532,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 1 week ago",
+        "relative_time": "5 months, 2 weeks ago",
         "selected_answer": "C",
         "html": "C. Read the release notes on version 4.1\n\nWhen faced with multiple supported versions, especially a major version upgrade, always:\nReview release notes first before testing or deploying.",
         "upvotes": 1,
@@ -2543,7 +2543,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 1 week ago",
+        "relative_time": "6 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "Considering these are mail servers supporting a web application, I would test on a DevNet to see if anything breaks.  Just my two cents, no harm in reading the release notes, I see this through the prism of change management and risk.  High impact if the mail servers go down in production (seen a guy get fired for not having a reliable Exchange backup server) again my Mr. Spock logic says A.",
         "upvotes": 2,
@@ -2561,7 +2561,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2600,7 +2600,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2632,14 +2632,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "The scenario describes a specific, predictable pattern: traffic bursts occur \"when a new video is launched\" and \"in the middle of the month\".",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2671,14 +2671,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "Remediation refers to the actual steps taken to mitigate or eliminate a discovered vulnerability or threat. By updating the IP tables to block a specific malicious or unauthorized IP address, the administrator is \"fixing\" the security gap.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2710,14 +2710,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Hybrid cloud is best because it lets the customer keep local/on-prem access for legacy applications while using the public cloud for geographically dispersed services, meeting all requirements without forcing a full migration.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2749,14 +2749,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "A single CLI command can query the cloud provider’s API to find all instances with the specific \"noncritical application\" tag and issue a stop command simultaneously.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2795,7 +2795,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2827,14 +2827,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. Regional DNS provider outage\nOnly users in specific geographic regions (Brazil and Argentina) are affected, which points to a regional DNS provider outage rather than a global DNS misconfiguration or client-side issue.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2866,14 +2866,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. Reviewing the administrator’s permissions to access the engineering VM\nOnly one user is affected while others in the same group can access the VM. This points to an IAM/permission assignment issue, not a VM, network, or connectivity problem.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2912,7 +2912,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2944,7 +2944,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. Configure TLS 1.2 or newer\n\nERR SSL VERSION OR CIPHER MISMATCH usually happens after hardening disables old protocols. Fix it by configuring the web server to support TLS 1.2 or newer.\n-Restarting doesn’t change SSL/TLS protocols or ciphers.\n-Updates may improve security but won’t fix misconfigured protocols.\n-WAF logs won’t resolve SSL/TLS negotiation issues.",
         "upvotes": 2,
@@ -2962,7 +2962,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2994,7 +2994,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. IaaS",
         "upvotes": 2,
@@ -3005,7 +3005,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 2 weeks ago",
+        "relative_time": "6 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. IaaS\nPaaS Gives you a platform/runtime, but less control over the infrastructure. Not ideal for custom cluster designs. IaaS gives you Full control of virtual servers; right model for large clustered environments and scalability testing..",
         "upvotes": 2,
@@ -3016,7 +3016,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "I think it's D",
         "upvotes": 2,
@@ -3038,7 +3038,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 year, 5 months ago",
+        "relative_time": "1 year, 6 months ago",
         "selected_answer": "A",
         "html": "This one is pretty tricky and not really worded well.\n\nPaaS solutions typically give you some level of scalability control, however isn't as granular as IaaS. I feel like the question needs to give us more context in terms of how in-depth or how much control the engineering team needs for scaling their software.\n\nI'd probably lean toward PaaS since it's only a \"test\" and configuring an IaaS would be much more of an effort.",
         "upvotes": 1,
@@ -3048,7 +3048,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "1 year, 5 months ago",
+            "relative_time": "1 year, 6 months ago",
             "selected_answer": "",
             "html": "On second thought, the testing is purely on the scalability.. The engineering team may need a high level of control over that to properly test it..\n\nI can totally see the answer being IaaS as well.",
             "upvotes": 5,
@@ -3079,7 +3079,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3111,14 +3111,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. Integrity\nTo guarantee backups can be restored with no data loss, always test backup integrity.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3150,7 +3150,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "C. Hardening",
         "upvotes": 1,
@@ -3168,7 +3168,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3200,7 +3200,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. Creating peering connections between all VPCs\n\nTo allow private communication between multiple VPCs, use VPC peering between each VPC.\n-Load balancers are for distributing traffic to resources, not connecting entire VPCs.\n-BGP is used in VPNs or Direct Connect, not simple VPC-to-VPC communication.\n-Routing tables alone don’t create connectivity; peering or VPNs are required.",
         "upvotes": 2,
@@ -3218,7 +3218,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3250,7 +3250,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "C. Elastic; triggered by trend\n\nAn elastic instance adjusts capacity automatically based on usage trends, such as seasonal activity.\n– Fixed instances don’t scale; “triggered by load” refers to reactive autoscaling, not trend-based scaling.\n– Permanent/manual scaling doesn’t automatically adjust for seasonal trends.\n– Ephemeral instances are short-lived and usually event-driven, not trend-driven.",
         "upvotes": 2,
@@ -3268,7 +3268,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3300,14 +3300,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "C. Private image repositories\n\nTo prevent secrets from leaking in CI/CD pipelines, store container images in private image repositories.\n\n– Helps catch code issues but doesn’t prevent secrets from being included in images.\n– VMs don’t inherently protect secrets; they only change the environment.\n– Canary testing checks functionality in production gradually, but does not secure secrets.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3339,7 +3339,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "A. Canary\n\nCanary deployments release new features to a small subset of users in production, reducing risk and cost.",
         "upvotes": 2,
@@ -3350,14 +3350,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 3 weeks ago",
+        "relative_time": "10 months ago",
         "selected_answer": "A",
         "html": "Canary Deployment: This strategy involves rolling out a new feature or version to a small subset of users or servers first. This \"canary group\" acts as an early warning system, allowing the development team to monitor the new feature's performance and stability in a live production environment with minimal impact on the entire user base. If issues arise, they are contained to the canary group, and the rollout can be halted or rolled back before affecting all users. This approach minimizes risk and allows for targeted testing and feedback from a specific user segment. It also tends to be more cost-effective than maintaining entirely separate environments like in blue-green deployments.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3389,7 +3389,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "git push (Correct): Once changes are committed locally, this command uploads them to the remote repository. In automated environments, \"pushing\" to a specific branch often triggers the deployment pipeline that actually builds and configures the IaaS infrastructure.\ngit commit (Next logical step, but not for final deployment): You must commit your changes locally before you can push them. However, committing only saves the changes to your local machine; it does not move them to the central repository where the deployment usually occurs",
         "upvotes": 1,
@@ -3400,7 +3400,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. git push\nAfter editing templates locally, use git push to send changes to the remote repository for deployment. Git commit saves changes locally but doesn’t update the remote repository or trigger",
         "upvotes": 2,
@@ -3411,7 +3411,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "C",
         "html": "Committing the changes locally must come first. so C",
         "upvotes": 2,
@@ -3454,7 +3454,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "1 year, 5 months ago",
+            "relative_time": "1 year, 6 months ago",
             "selected_answer": "",
             "html": "Agreed. While git push is necessary to send committed changes to the remote repository, it's not the next step immediately after making changes. Committing the changes locally must come first.",
             "upvotes": 1,
@@ -3463,7 +3463,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3502,7 +3502,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3523,7 +3523,7 @@
       "https://img.examtopics.com/cv0-004/image8.png"
     ],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3547,7 +3547,7 @@
       "https://img.examtopics.com/cv0-004/image13.png"
     ],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3579,7 +3579,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "without is the point.",
         "upvotes": 2,
@@ -3590,7 +3590,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "10 months ago",
+        "relative_time": "10 months, 1 week ago",
         "selected_answer": "B",
         "html": "VPC peering is the option that provides secure, private communication between cloud environments without provisioning additional hardware or appliances.",
         "upvotes": 2,
@@ -3601,14 +3601,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "D. Transit Gateway\nBecause it provides secure, private communication between multiple cloud environments without any additional hardware or appliances, and it scales better than peering.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3647,7 +3647,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3686,7 +3686,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3730,7 +3730,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "1 month, 1 week ago",
+            "relative_time": "1 month, 2 weeks ago",
             "selected_answer": "",
             "html": "Your logic regarding the subnet sizes and the default gateway is completely understandable, and in a traditional, on-premises physical network, you would be 100% correct. Changing an IP address to a completely different network branch (like .14.x) without changing the default gateway would break routing.\n\nHowever, this is a cloud architecture question (specifically from the CompTIA Cloud+ exam), and cloud networking works quite differently than traditional hardware networking.\n\nHere is why Option C is incorrect and why Option D is the intended right answer in a cloud environment.",
             "upvotes": 1,
@@ -3739,7 +3739,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3771,7 +3771,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "A. Instance warm-up\nUse instance warm-up with a load balancer so new servers have time to initialize before receiving traffic, preventing failures during scaling",
         "upvotes": 2,
@@ -3789,7 +3789,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3821,7 +3821,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. Ansible\n\nCI/CD pipelines automate the deployment of VMs (or other resources) to an IaaS environment. Once a VM is running, you want to harden the operating system—this means applying security configurations, patching, and enforcing policies. Ansible is a configuration management and automation tool. You can write playbooks that automatically configure and harden the OS, install updates, disable unnecessary services, and enforce security baselines.\n\nThe others don’t fit this purpose:\n\nA. Docker - Container runtime, not for hardening VMs.\n\nB. Kubernetes - Orchestration platform for containers, not OS-level hardening.\n\nC. Git - Version control, used for code management, not system hardening.",
         "upvotes": 2,
@@ -3839,7 +3839,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3871,14 +3871,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "A. Archive\n\nFor compliance purposes, when data needs to be retained for 10 years or more with minimal access, the most cost-efficient cloud storage tier is Archive. This tier is designed for long-term retention at the lowest cost, making it ideal for storing rarely accessed data such as customer policies. Other tiers like Hot, Warm, and Cold are more expensive and intended for frequently or semi-frequently accessed data. While retrieval from Archive may take longer, this delay is generally acceptable for compliance-related storage.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3910,14 +3910,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. Code versioning\n\nCode versioning (also called version control) is the process of tracking and managing changes to software code over time. It allows developers to:\n-Revert to previous versions\n-Collaborate with others without overwriting work\n-Track who made changes and why",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3978,7 +3978,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4017,7 +4017,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4049,14 +4049,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "C seems good. it checks vm status and when it is running it closes it",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4095,7 +4095,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4127,14 +4127,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "A. An event-driven architecture that will send a message when the VM shuts down to a log-collecting function that extracts and uploads the log directly from the storage volume",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4166,7 +4166,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 month ago",
+        "relative_time": "1 month, 1 week ago",
         "selected_answer": "D",
         "html": "Protects sensitive data itself, not just the environments",
         "upvotes": 1,
@@ -4177,7 +4177,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "Identity and Access Management (IAM) and Access Control Lists (ACLs) are fundamental for enforcing the Principle of Least Privilege. By strictly controlling who can see or move data, you bolster Data Loss Prevention (DLP). This ensures that external consultants and testers only have access to the specific resources they need, preventing sensitive data from being exfiltrated.",
         "upvotes": 2,
@@ -4188,7 +4188,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. Segregating internal vs external teams\n\nWhen developing applications that handle sensitive data with both internal staff and external consultants, the most important security control is segregating environments for internal and external teams. This ensures separate accounts, credentials, networks, and often encryption keys, which limits the blast radius of compromised external accounts, prevents accidental or intentional data leaks, and strengthens audit and compliance controls. While IAM, ACLs, and other measures help, strong environment segregation is the highest-priority control in this scenario.",
         "upvotes": 2,
@@ -4199,7 +4199,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 3 weeks ago",
+        "relative_time": "6 months ago",
         "selected_answer": "D",
         "html": "Correct answer: D. Using IAM and ACL in order to bolster DLP\n\nWhy D is correct\n\nThis question is about protecting sensitive data, not environment architecture or availability.",
         "upvotes": 3,
@@ -4210,14 +4210,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 1 week ago",
+        "relative_time": "7 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "So I actually answered A, since it seemed like a more specific variation of B. ie. answer B specifies segregating environments for internal and external use, but doesn't specify how they're segregated, but A does that... but then I realized it says \"public development\" in answer A, which is not what we want. It's not separating by internal and external use, therefore the answer is B.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4249,14 +4249,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. Percent of CPU utilization\n\nHigh, sustained CPU usage on cloud instances that aren’t running heavy workloads is a red flag for cryptojacking.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4288,14 +4288,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. The equipment is reaching end of life and end of support\n\nWhen a cloud provider requires migration to a new VM type, the main reason is that the old VM is reaching end of life (EOL) and end of support (EOS). This means it will no longer receive updates, patches, or technical support. Migrating ensures continued security, stability, and compliance. Other factors like patching or maintenance may occur, but the primary justification is the retirement of unsupported hardware or software.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4327,14 +4327,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. CVSS\n\nTo calculate the severity of a known software vulnerability, such as an outdated Apache Log4j component, organizations should use CVSS (Common Vulnerability Scoring System). CVSS provides a standardized score based on exploitability, impact on confidentiality, integrity, and availability, and other factors, helping prioritize remediation. Other frameworks like CWE, CWSS, or CVE identify weaknesses or provide identifiers but do not quantify severity.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4366,14 +4366,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "B. IaaS\n\nWhen a workload requires custom compliance configurations, rapid patching of vulnerabilities, and guaranteed storage performance, the appropriate cloud model is IaaS (Infrastructure as a Service). IaaS provides full control over virtual machines, storage, networking, and operating systems, allowing the organization to implement security standards, apply patches immediately, and configure resources to meet performance requirements. Other models like SaaS, PaaS, or FaaS do not offer the necessary OS-level control or performance guarantees.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4405,7 +4405,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "A digitally signed image does not assist with any vulnerabilities in an image, it just indicates someone signed it and made it \"official\" per-se.  CIS Hardened images are images that have security settings modified to be more secure.   A Seems to be the best answer, imho.",
         "upvotes": 1,
@@ -4416,7 +4416,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "C",
         "html": "The correct an is C, the hardened image can modify before upload it",
         "upvotes": 1,
@@ -4434,7 +4434,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4466,14 +4466,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "C. Ask the upper management team to approve an emergency patch window\n\nFor critical security patches on systems supporting high-profile events, the safest approach is to request management approval for an emergency patch window. This ensures the patch is applied in a controlled manner, minimizing risk of downtime during the event while addressing critical security vulnerabilities. Delaying the patch or applying it immediately without coordination could expose the organization to security risks or disrupt services.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4507,7 +4507,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "C. The MySQL Server Stateful Firewall",
         "upvotes": 1,
@@ -4518,14 +4518,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months ago",
+        "relative_time": "6 months, 1 week ago",
         "selected_answer": "B",
         "html": "There is no route to 192.168.2.0/24 from the application server subnet, it would be unable to reach it. compare to the MySQL server subnet routing table.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4563,7 +4563,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "AD",
         "html": "To best ensure that data is secure while stored on a third-party system, the cloud engineer should use:\nD. AES (Advanced Encryption Standard): This is the industry-standard algorithm used to provide confidentiality for data at rest. By encrypting the data with AES, the engineer ensures that even if the third-party storage is compromised, the data remains unreadable to unauthorized parties.\nA. Hashing: This is used to ensure data integrity. By creating a hash (a unique digital fingerprint) of the data before storing it, the engineer can later verify that the data has not been tampered with or modified while residing on the third-party system",
         "upvotes": 1,
@@ -4574,7 +4574,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "DE",
         "html": "To keep data secure while stored on a third-party cloud provider, use:\n\nAES (D) — the standard encryption algorithm (usually AES-256) that protects data at rest (stored files, databases, disks) so it remains unreadable even if storage is compromised.\nTLS (E) — the modern secure protocol that encrypts data in transit (during upload, download, and access) to prevent interception.",
         "upvotes": 1,
@@ -4584,7 +4584,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months ago",
+            "relative_time": "2 months, 2 weeks ago",
             "selected_answer": "",
             "html": "The question asks \"secured while stored\"",
             "upvotes": 1,
@@ -4597,7 +4597,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "AD",
         "html": "Upon reevaluation, A and D.   Data security on site.  A hashing makes sure it is not modified, and D AES provides encryption.  There is no discussion of transporting data in the question, so TLS is wrong.",
         "upvotes": 4,
@@ -4608,7 +4608,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "8 months, 2 weeks ago",
+        "relative_time": "8 months, 4 weeks ago",
         "selected_answer": "AD",
         "html": "While stored on the third party system. Hash to ensure it's not tampered with while AES is encryption at rest. TLS/SSL is for data in transit. \"Stored\" is implying data at rest.",
         "upvotes": 4,
@@ -4619,7 +4619,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "DE",
         "html": "is AES Advanced Encryption standard\nTLS transport layer security",
         "upvotes": 2,
@@ -4629,7 +4629,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months ago",
+            "relative_time": "2 months, 2 weeks ago",
             "selected_answer": "",
             "html": "The question asks \"secured while stored\"",
             "upvotes": 1,
@@ -4642,7 +4642,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "is AES Advanced Encryption standard\nTLS transport layer security",
         "upvotes": 2,
@@ -4652,7 +4652,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months ago",
+            "relative_time": "2 months, 2 weeks ago",
             "selected_answer": "",
             "html": "The question asks \"secured while stored\"",
             "upvotes": 1,
@@ -4661,7 +4661,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4693,14 +4693,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "C. Refactor\n\nFor a legacy application that cannot handle user demand and is expensive to maintain, the best migration strategy is refactor. This involves redesigning and modifying the application to leverage cloud-native features, improve scalability, performance, and cost-efficiency. Retain, rehost, or replatform would not fully address these issues.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4732,7 +4732,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 3 weeks ago",
+        "relative_time": "10 months ago",
         "selected_answer": "B",
         "html": "B. Rolling Deployment: This strategy gradually updates instances of the application with the new version, one batch at a time, within a single environment. This minimizes downtime by keeping some instances running the old version while others are updated. It is generally more resource-efficient than blue-green as it doesn't require maintaining two full environments simultaneously, thereby keeping costs lower while allowing for phased updates.",
         "upvotes": 3,
@@ -4743,14 +4743,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "Rolling is low coast because no need for duplicate env and can do it in phases",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4782,14 +4782,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "Common Vulnerabilities and Exposures (CVE) is a list of publicly disclosed cybersecurity vulnerabilities. Each entry in the CVE list is assigned a unique identification number, a description of the vulnerability, and at least one public reference. It serves as a standardized industry dictionary that allows security professionals and software tools to communicate about the same specific issues",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4821,7 +4821,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 3 weeks ago",
+        "relative_time": "6 months ago",
         "selected_answer": "C",
         "html": "I agree that seasonal sales are predictable but a flash sale is not and Event scalling allows the system to scale resources automatically when defined events occur.",
         "upvotes": 1,
@@ -4832,7 +4832,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 1 week ago",
+        "relative_time": "7 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "I agree that seasonal and flash sales are predictable, and planned ahead of time. I don't see why this would be 'Event' instead of 'Scheduled'.",
         "upvotes": 2,
@@ -4843,14 +4843,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months, 1 week ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "Scheduled is better because seasonal or flash sales are predictable",
         "upvotes": 4,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4877,7 +4877,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4904,7 +4904,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4938,14 +4938,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "key point - segregate two different sessions of logs",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4977,14 +4977,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "When a developer deploys code to a public repository (like GitHub), anyone on the internet can view the source code. If the developer accidentally included a database username and password directly in the code (hard-coding), an attacker could simply read the credentials from the repository and use them to hack the database",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5016,14 +5016,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "Creation of virtual instances: This directly describes the core process of cloud migration, where physical or virtual servers from a local data center are recreated as virtual machines (instances) on a cloud provider's infrastructure (e.g., AWS EC2 or Azure VMs). This allows an organization to stop managing physical hardware and move to a remotely managed environment",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5055,14 +5055,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "Was between VPN or dedicated connection. Dedicated connection is expensive compared to VPN, so VPN is the answer.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5094,14 +5094,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Object Storage is the standard solution for handling massive amounts of unstructured data (such as photos, videos, backups, and logs) in a way that is both highly scalable and cost-effective",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5128,7 +5128,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5160,14 +5160,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "onfiguration as code addresses the issue of inconsistent deployments by replacing manual processes with automated, repeatable templates. Instead of ten engineers clicking through a console differently, they use the same version-controlled code to provision the environment, ensuring every deployment is identical",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5199,14 +5199,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "In a real-time monitoring scenario for high-usage resources, a dashboard provides the visibility needed to track specific events and health metrics instantly. It allows administrators to filter data and identify anomalies or critical performance shifts as they happen, ensuring immediate action can be taken to maintain availability",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5233,7 +5233,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5260,7 +5260,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5298,7 +5298,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "DF",
         "html": "A does not make sense, that's not a Security Analyst role.  D and F make the \"most sense\".",
         "upvotes": 3,
@@ -5309,7 +5309,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "DF",
         "html": "It is D, F\nA is above the paygrade of Security Analysts. Legal team and upper management should make the call.",
         "upvotes": 4,
@@ -5327,7 +5327,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5366,7 +5366,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5398,14 +5398,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "C",
         "html": "Non-relational databases (also known as NoSQL) are designed to store unstructured or semi-structured data without a predefined, rigid schema. This makes them the best choice for environments where data types are diverse (such as images, videos, and social media feeds) and requirements change frequently.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5437,7 +5437,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Blue Green avoids risk by having two online environments for full testing.  Canary limits risk by deploying to a small group.  If the expectation is to completely avoid loss, then Blue-Green makes more sense to be.",
         "upvotes": 5,
@@ -5448,7 +5448,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "B. Blue-green\n\nTo deploy a new web application version to many servers without causing outages, implement a blue-green deployment. This strategy uses two identical environments, switches traffic to the new version only after verification, and allows instant rollback if issues occur. Rolling, canary, or round-robin strategies do not fully prevent downtime.",
         "upvotes": 2,
@@ -5466,7 +5466,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5505,7 +5505,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5532,7 +5532,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5559,7 +5559,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5598,7 +5598,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5630,7 +5630,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 month, 1 week ago",
+        "relative_time": "1 month, 3 weeks ago",
         "selected_answer": "C",
         "html": "The Answer is C Code Repo",
         "upvotes": 1,
@@ -5641,14 +5641,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "C",
         "html": "A code repository is a central storage location where all versions of a software project’s source code are kept. \nVersion Separation: It tracks every change, effectively keeping each historical snapshot of the code separate from others.\nAccess to All Versions: It allows developers to browse, compare, and revert to any previous state of the project, ensuring no historical data is lost even as the software evolves.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5675,7 +5675,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5714,7 +5714,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5748,7 +5748,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "8 months, 4 weeks ago",
+        "relative_time": "9 months, 1 week ago",
         "selected_answer": "A",
         "html": "The command output indicates unusual access to sensitive system files and directories, which is a strong sign of unauthorized privilege escalation. An attacker might have gained elevated access through a vulnerability or compromised credentials, allowing them to execute commands normally reserved for privileged users",
         "upvotes": 2,
@@ -5766,7 +5766,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5807,7 +5807,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5846,7 +5846,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5873,7 +5873,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5912,7 +5912,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5951,7 +5951,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -5978,7 +5978,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6007,7 +6007,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6046,7 +6046,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6085,7 +6085,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6112,7 +6112,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6151,7 +6151,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6183,7 +6183,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Single EC2 Instance (Within a single AZ)\t≥ 99.5%.   I get multiple availability zones are better, but the requirements listed do not call for that.  I don't know what CompTIA things, but multiple availability zones are not required here, and will just incur more costs.   I feel like B is best.  D has no mention of multiple VMs, which is implied from the requirements.   C will just simply be more expensive and cause more latency for a higher availability which is not in the requirements.",
         "upvotes": 2,
@@ -6193,7 +6193,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months, 2 weeks ago",
+            "relative_time": "2 months, 3 weeks ago",
             "selected_answer": "",
             "html": "Yes, the requirement doesn't specifically call for multiple AZs but having multiple AZs will allow for a higher availability compared to one AZ which is one of the requirements.",
             "upvotes": 1,
@@ -6206,7 +6206,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "11 months ago",
+        "relative_time": "11 months, 2 weeks ago",
         "selected_answer": "C",
         "html": "i go with C",
         "upvotes": 1,
@@ -6235,7 +6235,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6272,7 +6272,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "8 months, 4 weeks ago",
+        "relative_time": "9 months, 1 week ago",
         "selected_answer": "BE",
         "html": "In a provider-managed database service, a customer is responsible for the security of their data, including how it is accessed and how it is encrypted. The cloud provider is responsible for the security of the cloud, which includes the underlying infrastructure and the core database service.",
         "upvotes": 1,
@@ -6283,7 +6283,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "9 months, 2 weeks ago",
+        "relative_time": "9 months, 3 weeks ago",
         "selected_answer": "BE",
         "html": "BE is right",
         "upvotes": 1,
@@ -6301,7 +6301,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6328,7 +6328,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6355,7 +6355,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6394,7 +6394,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6433,7 +6433,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6465,7 +6465,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "B. Implementation — SaaS\n\nIf a company does not want any on-premises servers or applications, the best approach is implementing a SaaS solution. SaaS is fully cloud-hosted, requires no local infrastructure, and allows the provider to manage the application, platform, and underlying systems. Migration, hybrid, or colocation approaches still involve on-prem components",
         "upvotes": 2,
@@ -6483,7 +6483,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6515,14 +6515,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "In an incident response or troubleshooting workflow, triage is the first step performed after an alert is received. This phase involves validating the alert, determining its severity, and assessing the scope of the impact (e.g., verifying if the entire web server is down or just a specific page) before moving to more intensive steps like remediation or escalation",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6554,7 +6554,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "The correct is option-A. \n\nb) package.zip-  just a compressed file and not used by package managers\n\nc) package.deb- tricky option but question is clearly referring to application dependency management (like Node.js) so.... NO this cant be the correct answer.\n\nd) package.tar- it archive file (like zip) and isnt directly used for dependency installation.",
         "upvotes": 1,
@@ -6572,7 +6572,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6611,7 +6611,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6643,14 +6643,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "High CPU Usage: Cryptocurrency mining is a \"compute-heavy\" task that requires massive processing power. Attackers aim to utilize as much CPU as possible (often reaching 100%) to maximize their mining rewards",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6682,14 +6682,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "B. Blue-green\n\nTo support separate production and development environments with no cross-impact and the highest availability, a blue-green deployment is the best strategy. It provides two isolated environments, enables zero-downtime deployments, and allows instant rollback if issues occur, ensuring maximum availability.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6721,7 +6721,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "B and D are out because of using spot instances which isn't considered highly available. I like A because of autoscaling being enabled as opposed to C not having autoscaling enabled. I believe, Autoscaling falls under self-healing.",
         "upvotes": 1,
@@ -6732,14 +6732,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "D is a spot instance… I am not sure I would call that highly available.  C seems to fit the requirements better, to me?",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6778,7 +6778,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6805,7 +6805,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6839,14 +6839,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 1 week ago",
+        "relative_time": "6 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "FTP = credentials + data in cleartext\n\nFTP transmits usernames, passwords, and file contents in plaintext\n\nAnyone sniffing traffic (MITM, compromised network, ISP-level attacker, shared hosting, etc.) can:\n\nCapture credentials\n\nDownload sensitive files\n\nUpload malicious content\n\nThat alone is enough to explain a data leak through the website.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6878,14 +6878,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "Assessment: This phase follows the initial discovery/scanning. It involves evaluating the severity of the findings, validating that the vulnerabilities are real (true positives) rather than scanner errors (false positives), and determining the potential impact on the environment.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6924,7 +6924,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -6963,7 +6963,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7002,7 +7002,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7034,14 +7034,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 1 week ago",
+        "relative_time": "5 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "B. Changes were made to address vulnerabilities\n\nTLS 1.1 is deprecated and considered insecure. Many organizations disable older TLS versions (TLS 1.0 / 1.1) as part of security hardening and vulnerability remediation.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7085,7 +7085,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7112,7 +7112,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7151,7 +7151,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7183,14 +7183,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Terraform uses human-readable configuration files (templates) to define your entire infrastructure—including the networking, storage, and compute resources needed for containers",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7234,7 +7234,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7266,14 +7266,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "When migrating a local application and its database to two separate virtual machines (VMs) in the cloud, the connection strings or configuration files often still point to \"localhost\" or the old on-premises IP address of the database. Even if DNS records are updated for the public-facing site, the internal communication between the web server and the database server will fail unless the configuration file is updated to reflect the database's new cloud IP address or internal DNS name",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7305,14 +7305,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 1 week ago",
+        "relative_time": "6 months, 2 weeks ago",
         "selected_answer": "A",
         "html": "Why API key is the best answer\n\nThis is an application-to-cloud authentication scenario, not a human user.\n\nAPI keys are designed for:\n\nProgrammatic access (apps, services, scripts)\n\nNon-interactive authentication\n\nControlled, revocable access to cloud APIs\n\nEasy rotation and scoping (often paired with IAM policies)\n\nIn public cloud environments (AWS, Azure, GCP), applications commonly authenticate using:\n\nAPI keys\n\nService principals\n\nIAM roles / managed identities\n\nFrom the choices given, API key is the only one that fits that model.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7351,7 +7351,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7390,7 +7390,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7422,7 +7422,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "A.  A scope should be defined before identification/scanning.",
         "upvotes": 5,
@@ -7433,7 +7433,7 @@
         "meta": "",
         "is_highly_voted": true,
         "is_most_recent": false,
-        "relative_time": "6 months, 2 weeks ago",
+        "relative_time": "6 months, 3 weeks ago",
         "selected_answer": "",
         "html": "Think of this like a disciplined investigation — you don’t sprint before you map the ground.\n\nScanning scope\nFirst, you define what is in scope:\n\nWhich systems?\n\nWhich networks?\n\nWhich IP ranges?\n\nWhich environments (prod, dev, cloud accounts, tenants)?\n\n👉 You never scan or assess before you know your boundaries.",
         "upvotes": 4,
@@ -7444,14 +7444,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "8 months, 4 weeks ago",
+        "relative_time": "9 months, 1 week ago",
         "selected_answer": "C",
         "html": "Identification, scanning scope, assessment, and remediation",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7483,14 +7483,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "A Canary deployment is specifically designed for testing new features by rolling them out to a small, controlled group of users first. If the \"canaries\" (the initial users) don't report any issues or bugs, the team slowly increases the traffic to the new version until it reaches 100% of the user base",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7524,7 +7524,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 1 week ago",
+        "relative_time": "6 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "Why B is the best control\n\nThis scenario is a classic insider threat during off-boarding.\n\nKey facts:\n\nThe developer has already resigned\n\nLarge volumes of source code are being downloaded\n\nThe risk is data exfiltration, not policy hygiene\n\nThe most effective and immediate mitigation is to remove access to the sensitive resource itself — the source code repository.\n\nRisk is eliminated at the source.\n\nThis aligns with:\n\nLeast privilege\n\nImmediate access revocation\n\nProper off-boarding controls\n\nIn real-world security programs, repo access should be:\n\nReduced immediately after notice is given, or\n\nRestricted to read-only / specific tasks, or\n\nFully revoked if not operationally required",
         "upvotes": 1,
@@ -7535,7 +7535,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "7 months, 2 weeks ago",
+        "relative_time": "7 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "B would affect the employed devs jobs… probably not a valid option.  Maybe C…  but none of these are good answers, imho.",
         "upvotes": 2,
@@ -7545,7 +7545,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "7 months, 2 weeks ago",
+            "relative_time": "7 months, 3 weeks ago",
             "selected_answer": "",
             "html": "However B may be right if the wording is slightly off from the real question.  Hard to tell here.",
             "upvotes": 1,
@@ -7565,7 +7565,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7604,7 +7604,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7643,7 +7643,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7682,7 +7682,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7714,7 +7714,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 3 weeks ago",
+        "relative_time": "6 months ago",
         "selected_answer": "B",
         "html": "Answer: B - Community.\n\nA community cloud is shared by multiple organizations with similar requirements (such as finance, healthcare, or government) and is designed to reduce costs while maintaining industry-specific controls and compliance. This fits a finance application that can share infrastructure but still needs tighter governance than a public cloud.\n\nWhy not the others:\n\nA. Private – Dedicated to one organization; higher cost.\n\nC. Public – Shared broadly with the general public; may not meet finance-specific requirements.\n\nD. Hybrid – Mix of environments, but does not specifically address cost reduction via shared industry use.",
         "upvotes": 3,
@@ -7725,7 +7725,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 1 week ago",
+        "relative_time": "6 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "The correct answer is:\n\nB. Community\n\nWhy:\nA community cloud is specifically designed to be shared by multiple organizations with similar requirements—for example, finance, healthcare, or government—while reducing costs through shared infrastructure. It balances cost savings with tighter governance and compliance than a public cloud.\n\nWhy the others don’t fit as well:\n\nA. Private – Not shared; highest cost.\n\nC. Public – Shared broadly, but often problematic for finance workloads due to compliance, data residency, and risk concerns.\n\nD. Hybrid – Mixes environments, but the question is about sharing one environment to reduce costs, not splitting workloads.\n\nExam rule of thumb:\nWhen you see “shared environment + similar industry + cost reduction”, the answer is almost always Community cloud.",
         "upvotes": 2,
@@ -7743,7 +7743,7 @@
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7770,7 +7770,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7802,14 +7802,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "When a company already has robust, validated perimeter defenses (like NGFW and IPS) but still experiences breaches, it indicates that the attacks are either bypassing the border (e.g., via stolen credentials or phishing) or moving laterally once inside",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7841,14 +7841,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "In cloud computing and REST APIs, an HTTP 403 Forbidden error specifically indicates that the server understands the request but refuses to authorize it.\nA. Permission issues: This is the hallmark of a 403 error. It means the credentials provided by the script do not have the necessary permissions (RBAC roles or policies) to perform the \"provisioning\" action on the storage API.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7880,14 +7880,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 1 week ago",
+        "relative_time": "5 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "C. Missing quotations on instance_region\n\nIn JSON, all string values must be enclosed in double quotation marks.\nShould be:\n\"instance_region\": \"apac\",",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7919,7 +7919,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 1 week ago",
+        "relative_time": "5 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "D. Create a scoped administrative role for the logging service account\n\nThe root cause of the incident is excessive privileges granted to a service account. The logging service account was given full directory administration privileges, which allowed it to add itself to the VNet Console Administrators group and delete a production VM.",
         "upvotes": 2,
@@ -7930,7 +7930,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 1 week ago",
+        "relative_time": "6 months, 2 weeks ago",
         "selected_answer": "D",
         "html": "Why this is the right answer\n\nThis incident happened because the logging service account had excessive privileges:\n\nIt was previously granted full directory admin rights\n\nThat allowed it to add itself to the VNet Console Administrators group\n\nOnce in that group, it could delete production resources\n\nThis is a classic violation of the Principle of Least Privilege.\n\nThe root cause is overprivileged service accounts, not weak authentication or VM access.\n\nThe correct long-term preventive control is to:\n\nRemove broad directory admin rights\n\nCreate a tightly scoped role that grants only the permissions required to collect logs\n\nPrevent the account from modifying IAM / directory group membership entirely\n\nThat is exactly what Option D does.",
         "upvotes": 2,
@@ -7941,7 +7941,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 3 weeks ago",
+        "relative_time": "7 months ago",
         "selected_answer": "B",
         "html": "It's definitely B. This is a classic exam scenario.",
         "upvotes": 1,
@@ -7951,7 +7951,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months, 2 weeks ago",
+            "relative_time": "2 months, 3 weeks ago",
             "selected_answer": "",
             "html": "Bruh, it is definitely not B.",
             "upvotes": 1,
@@ -7960,7 +7960,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -7987,7 +7987,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8019,7 +8019,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Rate limiting: Because only this specific developer is blocked after sending multiple requests while others can still access the service, it indicates that a limit has been reached at the individual account or client level.",
         "upvotes": 1,
@@ -8030,14 +8030,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "6 months, 3 weeks ago",
+        "relative_time": "7 months ago",
         "selected_answer": "A",
         "html": "Looks like A fits best.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8069,14 +8069,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "The Recovery Point Objective (RPO) is the metric that directly defines the maximum amount of data loss an organization is willing to tolerate following a disaster or disruption",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8108,14 +8108,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "End of Life / Replace: End of Life (EOL) marks the point where a product is no longer manufactured or sold by the vendor. Because the hardware is no longer being produced, any future hardware failures cannot be remediated with an identical new unit, and eventually, the vendor will stop providing software patches and security updates. The standard administrative action is to replace the device with a supported version to ensure long-term stability and security",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8147,14 +8147,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "5 months, 2 weeks ago",
+        "relative_time": "5 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "D. Persistent volumes\n\nPersistent volumes are designed to store container data beyond the lifecycle of a container.\nWhen a container processes data and the output needs to be saved to files for later review, that data must survive container restarts, container crashes, container redeployments",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8186,14 +8186,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "The issues described—buffer overflows and broken authentications—are classic software vulnerabilities that stem directly from how the application's source code was written and handled during development",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8225,14 +8225,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "Data ownership: Encryption is a fundamental tool for exercising ownership. When a Cloud Service Provider (CSP) prohibits the use of customer-managed keys (CMK), they are effectively preventing the customer from maintaining exclusive control over their own data. If the CSP holds all the keys, they—not the customer—have the ultimate power to access or disclose that data, which undermines the core principle of ownership.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8264,14 +8264,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Text recognition: This is the primary technology designed to \"read\" the visual patterns of letters and numbers on a printed surface—like a memo—and translate them into digital text.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8303,14 +8303,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "Shared responsibility model: Customer is responsible for security \"in the cloud\". Cloud service providers are responsible for security \"of the cloud\".",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8342,14 +8342,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "Traffic mirroring: This technology (e.g., VPC Traffic Mirroring in AWS) copies network traffic from a specific source (like a VM's network interface) and sends it to a security appliance or \"out-of-band\" analyzer. Because C2 traffic often hides within standard ports (HTTPS/443), mirroring allows specialized tools to perform deep packet inspection (DPI) or SSL/TLS decryption to see the actual commands being sent, which is the most efficient way to confirm the communication type.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8381,14 +8381,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "A. Patching the operating systems: This is the most effective and direct mitigation. For high-severity vulnerabilities (CVSS 7.0–10.0), applying security patches addresses the root cause of the risk and protects the servers against known exploits.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8420,14 +8420,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Vendor lock-in refers to a situation where a customer becomes dependent on a single cloud provider and cannot easily transition to another without substantial costs or technical effort. Platform as a Service (PaaS) models generally have the highest level of lock-in because they utilize proprietary APIs, unique data formats, and deeply integrated features specific to that vendor's ecosystem.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8459,14 +8459,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "Cannot be ephemeral so \"B\" is out the door. Resource metering is just a method for tracking usage. \"Pay as you go\" for a minimum of 5 years requirement would be very expensive compared to having a dedicated host.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8498,14 +8498,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Load: This approach uses performance metrics to trigger scaling actions automatically. When the \"load\" hits a specific limit, the system adds resources (scales out/up) to maintain performance and removes them when the load drops.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8532,7 +8532,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8564,14 +8564,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Major.Minor.Patch",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8603,14 +8603,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Paying for data that leaves a region is more expensive as opposed to data that stays within a region and travels between available zones. The further the data travels, the more the costs add up.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8642,14 +8642,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "A microservices architecture is defined by its use of small, independent software components that perform specific tasks. Because each service is developed, deployed, and scaled independently, the system is described as loosely coupled",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8676,7 +8676,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8703,7 +8703,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8730,7 +8730,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8757,7 +8757,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8789,14 +8789,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "A",
         "html": "Branch: Creating different branches allows a development team to work on client-specific features or versions in isolation. For example, one branch can contain the core product for \"Client A\" with Feature X, while another branch maintains the product for \"Client B\" with Feature Y. This prevents changes made for one client from accidentally affecting another until the team decides to integrate them.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8823,7 +8823,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8850,7 +8850,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8877,7 +8877,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8904,7 +8904,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8931,7 +8931,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8958,7 +8958,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -8985,7 +8985,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9012,7 +9012,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9039,7 +9039,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9066,7 +9066,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9093,7 +9093,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9120,7 +9120,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9147,7 +9147,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9179,14 +9179,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Customers are responsible for security IN the cloud while the cloud service provider is responsible for security OF the cloud.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9218,14 +9218,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Swap usage is the specific metric that connects memory utilization to disk performance. When a system runs out of physical RAM, the operating system moves inactive memory pages to a designated area on the storage drive (the \"swap space\" or \"page file\"). Monitoring this metric is critical because high swap usage forces the system to rely on slower disk I/O for memory operations, which can significantly degrade overall performance",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9252,7 +9252,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9279,7 +9279,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9306,7 +9306,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9333,7 +9333,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9364,7 +9364,7 @@
     "correct_answer": "AD",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9391,7 +9391,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9423,14 +9423,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "A Shadow (or \"Dark Launch\") deployment is the only strategy specifically designed to test a new release using real production traffic without impacting company resources or end-users.\nTraffic Duplication: Production traffic is captured and \"forked\" (copied) to the new version of the application running in the background.\nNo Bandwidth Impact: Since the new version's responses are discarded and never sent back to the actual users, it doesn't consume the \"egress\" bandwidth or affect the user experience.\nPerformance Testing: This allows the team to see how the new version handles a real-world load on the infrastructure before it ever \"goes live.\"",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9457,7 +9457,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9484,7 +9484,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9511,7 +9511,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9538,7 +9538,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9565,7 +9565,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9592,7 +9592,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9619,7 +9619,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9648,7 +9648,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9680,14 +9680,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "B",
         "html": "B. Hybrid\n\nA hybrid model combines on-premises resources (the company SAN and database in the data center) with third-party hosted workloads in the cloud. This meets the requirement to keep data local while running the application externally.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9719,14 +9719,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "According to Cloud+ the first step in the change management process is to initiate a change request. The next step is to perform a impact analysis and risk assessment which would involve \"investigate for any breaking changes\".",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9758,7 +9758,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 month, 2 weeks ago",
+        "relative_time": "1 month, 4 weeks ago",
         "selected_answer": "C",
         "html": "Persistent will provide the most durability which is the focus of the question.",
         "upvotes": 2,
@@ -9769,7 +9769,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Persistent. ef74e4b explains it well enough.",
         "upvotes": 1,
@@ -9780,7 +9780,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "B",
         "html": "B. Final answer.",
         "upvotes": 1,
@@ -9790,7 +9790,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "4 months, 3 weeks ago",
+            "relative_time": "5 months ago",
             "selected_answer": "",
             "html": "Cache is designed for speed, not durability. Also, data is volatile and lost on restarts, failures, or instance deletions. Persistent storage is designed to survive instance failures, instance deletion and provide high durability often 99.99% or higher.",
             "upvotes": 3,
@@ -9799,7 +9799,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9828,7 +9828,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9855,7 +9855,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9882,7 +9882,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9909,7 +9909,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9936,7 +9936,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -9968,14 +9968,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "A Multi-Availability Zone (Multi-AZ) database deployment is designed specifically to provide high availability and data durability by automatically provisioning and maintaining a synchronous standby replica in a different Availability Zone",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10007,14 +10007,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "An incremental backup only copies the data that has changed since the last backup (whether it was full or incremental). This results in the smallest amount of data being transferred and the shortest backup window. In contrast, a differential backup copies all data that has changed since the last full backup. As the week progresses and more changes accumulate, differential backups become progressively larger and slower to complete compared to incremental one",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10041,7 +10041,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10068,7 +10068,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10095,7 +10095,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10122,7 +10122,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10149,7 +10149,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10181,7 +10181,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 month, 2 weeks ago",
+        "relative_time": "1 month, 4 weeks ago",
         "selected_answer": "C",
         "html": "major minor patch",
         "upvotes": 1,
@@ -10192,7 +10192,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "C. Major.Minor.Patch",
         "upvotes": 1,
@@ -10203,14 +10203,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "4 months, 3 weeks ago",
+        "relative_time": "5 months ago",
         "selected_answer": "D",
         "html": "It's definitely D. This is a classic exam scenario.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10242,14 +10242,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Vertical Scaling (Scaling Up): This involves adding more resources (CPU, RAM, Storage) to the existing nodes rather than adding new ones. By increasing the capacity of the current two nodes, the engineer can mitigate resource exhaustion without violating the \"no third node\" rule. This is often achieved by upgrading the instance type or resizing the virtual machine.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10281,14 +10281,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "D",
         "html": "Port mapping (also known as port forwarding) allows external network traffic to reach services running inside a container. By default, containers are isolated and use their own internal private IP addresses. Port mapping links a specific port on the host machine (the physical or virtual machine running the container) to a port on the container.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10315,7 +10315,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10342,7 +10342,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10369,7 +10369,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10398,7 +10398,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10425,7 +10425,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10456,7 +10456,7 @@
     "correct_answer": "BF",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10487,7 +10487,7 @@
     "correct_answer": "BC",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10514,7 +10514,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10541,7 +10541,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10568,7 +10568,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10595,7 +10595,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10622,7 +10622,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10642,14 +10642,26 @@
     },
     "votes": {
       "A": 0,
-      "B": 0,
+      "B": 1,
       "C": 0,
       "D": 0
     },
     "correct_answer": "C",
     "correct_answer_images": [],
-    "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "discussion": [
+      {
+        "author": "102e99b",
+        "meta": "",
+        "is_highly_voted": false,
+        "is_most_recent": false,
+        "relative_time": "4 days, 1 hour ago",
+        "selected_answer": "B",
+        "html": "Containers are specifically known for rapid provisioning and deployment of compute environments.\nThey start in seconds and are lightweight compared to VMs.",
+        "upvotes": 1,
+        "replies": []
+      }
+    ],
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10676,7 +10688,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10703,7 +10715,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10730,7 +10742,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10757,7 +10769,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10784,7 +10796,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10817,7 +10829,7 @@
     "correct_answer": "BF",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10844,7 +10856,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10871,7 +10883,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10901,7 +10913,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10928,7 +10940,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10955,7 +10967,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -10982,7 +10994,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11009,7 +11021,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11036,7 +11048,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11063,7 +11075,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11090,7 +11102,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11117,7 +11129,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11144,7 +11156,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11171,7 +11183,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11198,7 +11210,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11225,7 +11237,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11252,7 +11264,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11279,7 +11291,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11306,7 +11318,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11333,7 +11345,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11360,7 +11372,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11387,7 +11399,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11414,7 +11426,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11441,7 +11453,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11468,7 +11480,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11495,7 +11507,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11522,7 +11534,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11549,7 +11561,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11576,7 +11588,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11603,7 +11615,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11630,7 +11642,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11661,7 +11673,7 @@
     "correct_answer": "BE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11692,7 +11704,7 @@
     "correct_answer": "DF",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   },
   {
@@ -11721,7 +11733,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:16:00.909331+00:00",
+    "scraped_at": "2026-07-06T17:01:58.407206+00:00",
     "dump_updated_text": ""
   }
 ]

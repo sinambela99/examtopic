@@ -19,7 +19,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -42,7 +42,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -69,7 +69,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -101,7 +101,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "D",
         "html": "AI said its D.",
         "upvotes": 1,
@@ -112,7 +112,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "D",
         "html": "D. Less complex infrastructure upgrades is the correct advantage of immutable infrastructure.\nImmutable infrastructure treats servers, VMs, or resources as immutable (unchanging once deployed). To apply updates, fixes, or changes, you create entirely new instances from a known, versioned image or template and then replace (or decommission) the old ones, rather than modifying them in place. This contrasts with mutable infrastructure, where you update existing resources directly (e.g., via patches, config changes, or SSH).",
         "upvotes": 1,
@@ -123,14 +123,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 1 week ago",
+        "relative_time": "3 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "Embora \"mais rápido\" possa parecer subjetivo, refere-se à previsibilidade e à velocidade de implementação inerentes ao modelo imutável. Em vez de acessar servidores e executar scripts de atualização que podem travar ou falhar, você simplesmente substitui a versão antiga por uma nova pré-configurada.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -157,7 +157,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -189,14 +189,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "1 month, 1 week ago",
+        "relative_time": "1 month, 2 weeks ago",
         "selected_answer": "A",
         "html": "Cloud formation is specifically for AWS, therefore when deploying to Azure, we will require azure specific tool and have to utilize azure templates.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -223,7 +223,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -252,7 +252,7 @@
     "correct_answer": "AC",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -279,7 +279,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -306,7 +306,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -333,7 +333,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -358,7 +358,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -390,14 +390,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "A",
         "html": "This is the correct command for experimenting with Terraform expressions.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -425,14 +425,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "A",
         "html": "terraform init does install Community and Partner plugins (providers).",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -467,14 +467,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "BCE",
         "html": "B. Provision resources for public cloud infrastructure services.\nProviders (e.g., aws, azurerm, google) let you create, update, and delete resources in AWS, Azure, GCP, etc.\nC. Interact with cloud provider APIs.\nThis is the core job of a provider: it handles authentication, makes the actual API calls (create/read/update/delete), and translates Terraform’s declarative configuration into real infrastructure changes.\nE. Provision resources for on-premises infrastructure services.\nProviders also support self-hosted/on-prem platforms (e.g., vsphere for VMware, openstack, bare-metal providers, Kubernetes, databases, etc.). Terraform is not limited to public cloud.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -502,14 +502,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "B",
         "html": "Terraform can (and usually does) manage resource dependencies automatically through implicit dependencies — no depends_on required in most cases.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -536,7 +536,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -568,14 +568,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "C",
         "html": "C. aws\nThe provider for this resource is aws.\nHow Terraform identifies the provider\nIn a Terraform resource block, the syntax is always:\nhclresource \"&lt;RESOURCE_TYPE&gt;\" \"&lt;RESOURCE_NAME&gt;\" { ... }\n\nRESOURCE_TYPE = aws_vpc\nThe part before the first underscore (aws) tells Terraform which provider is responsible for this resource.\nThe part after the underscore (vpc) is the specific resource type offered by that provider.\nRESOURCE_NAME = main\nThis is just a local identifier (used for referencing the resource inside your configuration). It has nothing to do with the provider.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -598,7 +598,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -626,14 +626,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "B",
         "html": "B. False\nTerraform providers are not always installed from the internet. While the default behavior (when you run terraform init) is to download providers from the public Terraform Registry at registry.terraform.io (or a private registry), Terraform provides built-in support for offline / air-gapped installations through provider mirrors.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -665,14 +665,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "B",
         "html": "B. Set the environment variable TF_LOG=TRACE.\nThis is the official, recommended way to enable detailed logging in Terraform so you can see exactly which filesystem paths it is searching for and loading providers from (including the plugin cache, filesystem mirrors, dev overrides, and any custom directories)",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -695,7 +695,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -718,7 +718,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -745,7 +745,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -777,14 +777,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "A",
         "html": "A. Providers and modules\nThe hidden .terraform directory (created automatically by terraform init) is Terraform’s local cache for providers and modules.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -813,7 +813,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -840,7 +840,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -863,7 +863,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -890,7 +890,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -913,7 +913,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -945,14 +945,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "D",
         "html": "terraform init is the mandatory first command you must run in any new Terraform workspace (or after you add new providers/modules). It does three critical things before plan or apply can succeed:\n\nDownloads and installs all providers referenced in your *.tf files (populating the .terraform/providers/ cache).\nDownloads any child modules declared with module blocks.\nInitializes the backend (local by default) and creates the lock file .terraform.lock.hcl.\n\nWithout it, terraform plan or terraform apply will immediately fail with an error",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -979,7 +979,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1008,7 +1008,7 @@
     "correct_answer": "AB",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1036,14 +1036,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "B",
         "html": "B. False\nThe execution plan that terraform apply generates (and then executes) will not be the same as the one you saw from your earlier terraform plan.\nWhy the plans differ\n\nRefresh happens again\nBy default, both terraform plan and terraform apply perform a refresh before calculating the diff. This means Terraform queries the real infrastructure (via the provider) to update the in-memory state with current values.\nYour teammate’s manual change = drift\nBetween the time you ran terraform plan and when you run terraform apply, the live resource has changed. The refresh during apply will pick up that new reality, so the computed diff (what needs to be created/changed/destroyed) is now different.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1070,7 +1070,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1097,7 +1097,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1120,7 +1120,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1143,7 +1143,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1170,7 +1170,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1199,7 +1199,7 @@
     "correct_answer": "AC",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1231,7 +1231,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "Why \"B\" is the Answer\n\nIf your code references a variable—for example, using var.instance_type—but you haven't actually defined that variable using a variable \"instance_type\" {} block, the configuration is considered incomplete.\n\nTerraform cannot proceed because it doesn't know the type or constraints of that reference, so validate will catch this and throw an error.\n\nWhy the others are incorrect:\n\nC (State file mismatch): This is handled by terraform plan or terraform refresh. Validation doesn't look at the state file or your real-world resources at all.\n\nD (Tabs vs. Spaces): While the Terraform standard is two spaces, using tabs is not a syntax error. terraform fmt is the tool used to fix indentation, but validate won't fail because of it.\n\nA: Since B is a legitimate syntax/configuration error, A is incorrect.",
         "upvotes": 2,
@@ -1242,14 +1242,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "Here’s why your explanation for A doesn’t hold up:\n\nterraform validate checks internal consistency, not just syntax.\nIf your configuration references a variable that is not declared anywhere, Terraform will raise an error during validation.\nWhile values can be provided at runtime (CLI, env vars, tfvars), the variable itself must still be declared with a variable block.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1276,7 +1276,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1303,7 +1303,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1332,7 +1332,7 @@
     "correct_answer": "AB",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1359,7 +1359,7 @@
     "correct_answer": "BD",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1386,7 +1386,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1409,7 +1409,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1436,7 +1436,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1459,7 +1459,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1486,7 +1486,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1513,7 +1513,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1540,7 +1540,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1569,7 +1569,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1596,7 +1596,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1623,7 +1623,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1650,7 +1650,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1677,7 +1677,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1705,7 +1705,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "A. True\nIn Terraform, the required_providers block (inside the terraform {} block) is the only place where you ever reference a provider by its full source address and version constraint. Example:\nhclterraform {\n  required_providers {\n    aws = {\n      source  = \"hashicorp/aws\"\n      version = \"~&gt; 5.0\"\n    }\n  }\n}\nEverywhere else in the configuration — resource blocks, data sources, provider configuration blocks, provider meta-arguments, modules, etc. — Terraform uses only the local name (the key from required_providers, which defaults to the provider type if the block is omitted)",
         "upvotes": 2,
@@ -1716,7 +1716,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months, 2 weeks ago",
+        "relative_time": "3 months, 3 weeks ago",
         "selected_answer": "B",
         "html": "Terraform may use:\nThe default provider name, or\nAn alias, if you configured one.\n\nhttps://developer.hashicorp.com/terraform/language/block/provider",
         "upvotes": 1,
@@ -1726,7 +1726,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months, 1 week ago",
+            "relative_time": "2 months, 2 weeks ago",
             "selected_answer": "",
             "html": "Alias is used when you need to define multiple provider blocks for the same provider",
             "upvotes": 1,
@@ -1735,7 +1735,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1762,7 +1762,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1789,7 +1789,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1818,7 +1818,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1845,7 +1845,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1872,7 +1872,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1899,7 +1899,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1922,7 +1922,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1949,7 +1949,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1972,7 +1972,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -1999,7 +1999,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2026,7 +2026,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2053,7 +2053,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2083,7 +2083,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2106,7 +2106,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2138,14 +2138,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "D. Dynamic blocks\nDynamic blocks are the exact Terraform feature designed for this use case: they let you generate repeating nested blocks (such as multiple data_disk, storage_data_disk, attached_disk, etc.) inside a single resource based on the contents of a variable.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2172,7 +2172,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2199,7 +2199,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2226,7 +2226,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2249,7 +2249,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2276,7 +2276,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2303,7 +2303,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2330,7 +2330,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2357,7 +2357,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2384,7 +2384,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2411,7 +2411,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2438,7 +2438,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2461,7 +2461,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2484,7 +2484,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2512,14 +2512,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "B",
         "html": "When you run terraform apply, the Terraform CLI only prints the output values defined in the root module. Outputs from child modules are not automatically displayed.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2546,7 +2546,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2569,7 +2569,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2592,7 +2592,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2619,7 +2619,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2646,7 +2646,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2673,7 +2673,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2700,7 +2700,7 @@
     "correct_answer": "BD",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2729,7 +2729,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2756,7 +2756,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2783,7 +2783,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2810,7 +2810,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2837,7 +2837,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2860,7 +2860,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2889,7 +2889,7 @@
     "correct_answer": "BE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2916,7 +2916,7 @@
     "correct_answer": "AC",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2943,7 +2943,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2970,7 +2970,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -2993,7 +2993,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3020,7 +3020,7 @@
     "correct_answer": "AC",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3047,7 +3047,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3074,7 +3074,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3103,7 +3103,7 @@
     "correct_answer": "BE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3126,7 +3126,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3153,7 +3153,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3180,7 +3180,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3212,7 +3212,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months ago",
+        "relative_time": "2 months, 1 week ago",
         "selected_answer": "A",
         "html": "Terraform Plan is the right answer as it shows the difference",
         "upvotes": 1,
@@ -3223,7 +3223,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 3 weeks ago",
         "selected_answer": "C",
         "html": "I don't think any of them are correct, since the State File is updated only with the `terraform apply` command, but option C contains an error; it should be `terraform apply -lock=false`.",
         "upvotes": 1,
@@ -3233,7 +3233,7 @@
             "meta": "",
             "is_highly_voted": false,
             "is_most_recent": false,
-            "relative_time": "2 months ago",
+            "relative_time": "2 months, 1 week ago",
             "selected_answer": "",
             "html": "I would chose A because the changes are made outside the terraform and by applying terraform configuration the outside changes would be overwritten",
             "upvotes": 1,
@@ -3242,7 +3242,7 @@
         ]
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3269,7 +3269,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3297,7 +3297,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months ago",
+        "relative_time": "2 months, 1 week ago",
         "selected_answer": "A",
         "html": "A. True\n\nExplanation:\n\nThe -refresh-only flag tells Terraform to:\n\nCheck the real infrastructure (via provider APIs)\nCompare it with the current state file\nUpdate the state file to match reality if there are external changes\nBut not propose or apply configuration changes",
         "upvotes": 1,
@@ -3308,7 +3308,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "A",
         "html": "In the context of certification exams (like the HashiCorp Terraform Associate), when they ask if the -refresh-only parameter \"will update your state file,\" they are referring to the functionality of the refresh-only mode.\n\nWhile the plan phase is just a preview, the specific purpose of using that flag is to perform a state-only update. If you were to run a standard terraform apply (without the flag), Terraform would try to undo the manual changes to match your code. By using -refresh-only, you are telling Terraform to keep the manual changes and just update the state file to acknowledge them.",
         "upvotes": 1,
@@ -3319,14 +3319,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "B",
         "html": "The -refresh-only parameter does not update the state file when used with the terraform plan command. Instead, it allows you to preview the changes to the Terraform state file that would occur if you were to run terraform apply -refresh-only. The state file itself is only updated when you run the terraform apply -refresh-only command.",
         "upvotes": 3,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3353,7 +3353,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3380,7 +3380,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3407,7 +3407,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3434,7 +3434,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3466,14 +3466,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "D",
         "html": "Gemini said\nThe correct answer is D. optional.\n\nWhy it is optional\n\nYou are never forced to change your backend, but it is a best practice for teams or production environments.\n\nInitial State: When you run your first terraform apply, Terraform creates a terraform.tfstate file on your local disk (the local backend).\n\nThe Transition: You can move to a remote backend (like AWS S3, Azure Blob Storage, or Terraform Cloud) at any point in the project lifecycle. This process is called migration.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3500,7 +3500,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3529,7 +3529,7 @@
     "correct_answer": "BD",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3556,7 +3556,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3585,7 +3585,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3612,7 +3612,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3635,7 +3635,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3662,7 +3662,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3689,7 +3689,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3721,7 +3721,7 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 3 weeks ago",
+        "relative_time": "3 months ago",
         "selected_answer": "C",
         "html": "Why C is Correct:\n\n1) Remove the Resource Definition:\nIf the resource has been manually destroyed, you should remove its definition from your Terraform configuration files (e.g., .tf files).\nThis tells Terraform that the resource is no longer part of the desired state.\n\n2) Run terraform apply -refresh-only:\nThis command updates the Terraform state file to reflect the current state of your infrastructure without making any changes to resources.\nSince the resource definition has been removed, Terraform will remove the corresponding resource from the state file.",
         "upvotes": 1,
@@ -3732,14 +3732,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "3 months ago",
+        "relative_time": "3 months, 1 week ago",
         "selected_answer": "C",
         "html": "correct answer is: C. Remove the resource definition from your file and run terraform apply -refresh-only.",
         "upvotes": 2,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3767,14 +3767,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "The correct answer is B. False.\nWhen a check block’s assertion fails, Terraform reports a warning (including the error_message you defined) but continues executing the current operation (plan or apply) without blocking it.\nThis is the only type of custom validation in Terraform that is intentionally non-blocking. It runs as the final step of a plan or apply (after resources have been planned or provisioned) and is meant for ongoing health/monitoring checks rather than strict enforcement.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3801,7 +3801,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3828,7 +3828,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3855,7 +3855,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3882,7 +3882,7 @@
     "correct_answer": "B",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3909,7 +3909,7 @@
     "correct_answer": "BD",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3938,7 +3938,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -3973,14 +3973,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 2 weeks ago",
+        "relative_time": "2 months, 4 weeks ago",
         "selected_answer": "BD",
         "html": "he correct answers are B. Resource drift detection and D. Check block validation.\n\nWhat is an HCP Terraform Health Assessment?\n\nA health assessment is a background process in HCP Terraform (formerly Terraform Cloud) that monitors your infrastructure for \"correctness\" without you having to manually trigger a plan. It is specifically designed to catch two things:\n\nB. Resource drift detection: It checks if the actual infrastructure has been changed outside of Terraform (e.g., someone manually edited a setting in the AWS Console).\n\nD. Check block validation: It executes any check blocks you have defined in your code. This is used to verify functional status, such as whether a website is returning a 200 OK status or if a certificate is nearing expiration.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4007,7 +4007,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4035,14 +4035,14 @@
         "meta": "",
         "is_highly_voted": false,
         "is_most_recent": false,
-        "relative_time": "2 months, 1 week ago",
+        "relative_time": "2 months, 2 weeks ago",
         "selected_answer": "B",
         "html": "The correct answer is B. False.\nYou can only provide one cloud block per Terraform configuration.\nThe cloud block (nested inside the top-level terraform block) is how you connect a workspace to either HCP Terraform or a Terraform Enterprise instance. It is not repeatable — Terraform explicitly forbids multiple cloud blocks in the same configuration.",
         "upvotes": 1,
         "replies": []
       }
     ],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4067,7 +4067,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4096,7 +4096,7 @@
     "correct_answer": "DE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4125,7 +4125,7 @@
     "correct_answer": "BCE",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4152,7 +4152,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4179,7 +4179,7 @@
     "correct_answer": "D",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4210,7 +4210,7 @@
     "correct_answer": "BEF",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4237,7 +4237,7 @@
     "correct_answer": "C",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   },
   {
@@ -4264,7 +4264,7 @@
     "correct_answer": "A",
     "correct_answer_images": [],
     "discussion": [],
-    "scraped_at": "2026-06-28T00:25:20.079353+00:00",
+    "scraped_at": "2026-07-06T17:10:15.730828+00:00",
     "dump_updated_text": ""
   }
 ]
